@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "D:/FPGAJX/ZC_EXP/EXP4_ALU_REG/ALU_REG.xst" -ofn "D:/FPGAJX/ZC_EXP/EXP4_ALU_REG/ALU_REG.syr" 
+xst -intstyle ise -ifn "D:/FPGAJX/ZC_EXP/EXP4_ALU_REG/ALU_REG.xst" -ofn "D:/FPGAJX/ZC_EXP/EXP4_ALU_REG/ALU_REG.syr" 
+xst -intstyle ise -ifn "D:/FPGAJX/ZC_EXP/EXP4_ALU_REG/ALU_REG.xst" -ofn "D:/FPGAJX/ZC_EXP/EXP4_ALU_REG/ALU_REG.syr" 
+xst -intstyle ise -ifn "D:/FPGAJX/ZC_EXP/EXP4_ALU_REG/ALU_REG.xst" -ofn "D:/FPGAJX/ZC_EXP/EXP4_ALU_REG/ALU_REG.syr" 
+xst -intstyle ise -ifn "D:/FPGAJX/ZC_EXP/EXP4_ALU_REG/ALU_REG.xst" -ofn "D:/FPGAJX/ZC_EXP/EXP4_ALU_REG/ALU_REG.syr" 

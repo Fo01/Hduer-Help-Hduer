@@ -1,0 +1,17 @@
+xst -intstyle ise -ifn "D:/FPGAJX/ZC_EXP/EXP7_IF/IF_Exp.xst" -ofn "D:/FPGAJX/ZC_EXP/EXP7_IF/IF_Exp.syr" 
+xst -intstyle ise -ifn "D:/FPGAJX/ZC_EXP/EXP7_IF/IF_Exp.xst" -ofn "D:/FPGAJX/ZC_EXP/EXP7_IF/IF_Exp.syr" 
+xst -intstyle ise -ifn "D:/FPGAJX/ZC_EXP/EXP7_IF/IF_Exp.xst" -ofn "D:/FPGAJX/ZC_EXP/EXP7_IF/IF_Exp.syr" 
+xst -intstyle ise -ifn "D:/FPGAJX/ZC_EXP/EXP7_IF/IF_Exp.xst" -ofn "D:/FPGAJX/ZC_EXP/EXP7_IF/IF_Exp.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc6slx16-csg324-3 IF_Exp.ngc IF_Exp.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o IF_Exp_map.ncd IF_Exp.ngd IF_Exp.pcf 
+par -w -intstyle ise -ol high -mt off IF_Exp_map.ncd IF_Exp.ncd IF_Exp.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml IF_Exp.twx IF_Exp.ncd -o IF_Exp.twr IF_Exp.pcf 
+bitgen -intstyle ise -f IF_Exp.ut IF_Exp.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc IF_M.ucf -p xc6slx16-csg324-3 IF_Exp.ngc IF_Exp.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o IF_Exp_map.ncd IF_Exp.ngd IF_Exp.pcf 
+xst -intstyle ise -ifn "D:/FPGAJX/ZC_EXP/EXP7_IF/IF_Exp.xst" -ofn "D:/FPGAJX/ZC_EXP/EXP7_IF/IF_Exp.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc IF_M.ucf -p xc6slx16-csg324-3 IF_Exp.ngc IF_Exp.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o IF_Exp_map.ncd IF_Exp.ngd IF_Exp.pcf 
+par -w -intstyle ise -ol high -mt off IF_Exp_map.ncd IF_Exp.ncd IF_Exp.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml IF_Exp.twx IF_Exp.ncd -o IF_Exp.twr IF_Exp.pcf -ucf IF_M.ucf 
+bitgen -intstyle ise -f IF_Exp.ut IF_Exp.ncd 

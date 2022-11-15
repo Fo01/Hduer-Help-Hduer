@@ -1,0 +1,7 @@
+
+NET "Ai" 	LOC = V9;		//SW2
+NET "Bi" 	LOC = T9;		//SW1
+NET "Cin" 	LOC = T10;		//SW0
+
+NET "Cout" 	LOC = T11;		//LED7
+NET "Fi" 	LOC = U16;		//LED0

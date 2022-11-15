@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="Xst" num="0" delta="new" >Part-select index evaluated to out of bound value may lead to incorrect synthesis results; it is recommended not to use them in RTL
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_799</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_791&gt; &lt;Register/REG_Files_31_784&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_904</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_898&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_860</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_857&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_910</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_906&gt; &lt;Register/REG_Files_31_902&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_856</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_849&gt; &lt;Register/REG_Files_31_847&gt; &lt;Register/REG_Files_31_843&gt; &lt;Register/REG_Files_31_839&gt; &lt;Register/REG_Files_31_832&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_862</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_854&gt; &lt;Register/REG_Files_31_845&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_863</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_855&gt; &lt;Register/REG_Files_31_848&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_914</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_905&gt; &lt;Register/REG_Files_31_900&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_920</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_913&gt; &lt;Register/REG_Files_31_911&gt; &lt;Register/REG_Files_31_907&gt; &lt;Register/REG_Files_31_903&gt; &lt;Register/REG_Files_31_896&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_872</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_866&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_917</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_899&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_924</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_921&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_926</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_918&gt; &lt;Register/REG_Files_31_909&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_882</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_873&gt; &lt;Register/REG_Files_31_868&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_927</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_919&gt; &lt;Register/REG_Files_31_912&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_878</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_874&gt; &lt;Register/REG_Files_31_870&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_885</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_867&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_936</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_930&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_892</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_889&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_942</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_938&gt; &lt;Register/REG_Files_31_934&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_888</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_881&gt; &lt;Register/REG_Files_31_879&gt; &lt;Register/REG_Files_31_875&gt; &lt;Register/REG_Files_31_871&gt; &lt;Register/REG_Files_31_864&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_894</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_886&gt; &lt;Register/REG_Files_31_877&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_895</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_887&gt; &lt;Register/REG_Files_31_880&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_946</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_937&gt; &lt;Register/REG_Files_31_932&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_952</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_945&gt; &lt;Register/REG_Files_31_943&gt; &lt;Register/REG_Files_31_939&gt; &lt;Register/REG_Files_31_935&gt; &lt;Register/REG_Files_31_928&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_949</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_931&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_956</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_953&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_958</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_950&gt; &lt;Register/REG_Files_31_941&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_959</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_951&gt; &lt;Register/REG_Files_31_944&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_968</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_962&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_8</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_974</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_970&gt; &lt;Register/REG_Files_31_966&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_981</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_963&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_978</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_969&gt; &lt;Register/REG_Files_31_964&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_984</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_977&gt; &lt;Register/REG_Files_31_975&gt; &lt;Register/REG_Files_31_971&gt; &lt;Register/REG_Files_31_967&gt; &lt;Register/REG_Files_31_960&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_990</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_982&gt; &lt;Register/REG_Files_31_973&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_991</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_983&gt; &lt;Register/REG_Files_31_976&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_988</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_985&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_14</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_10&gt; &lt;Register/REG_Files_31_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_104</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_98&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_21</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_110</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_106&gt; &lt;Register/REG_Files_31_102&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_18</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_9&gt; &lt;Register/REG_Files_31_4&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_24</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_17&gt; &lt;Register/REG_Files_31_15&gt; &lt;Register/REG_Files_31_11&gt; &lt;Register/REG_Files_31_7&gt; &lt;Register/REG_Files_31_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_30</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_22&gt; &lt;Register/REG_Files_31_13&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_114</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_105&gt; &lt;Register/REG_Files_31_100&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_31</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_23&gt; &lt;Register/REG_Files_31_16&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_120</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_113&gt; &lt;Register/REG_Files_31_111&gt; &lt;Register/REG_Files_31_107&gt; &lt;Register/REG_Files_31_103&gt; &lt;Register/REG_Files_31_96&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_28</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_25&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_117</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_99&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_40</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_34&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_124</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_121&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_126</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_118&gt; &lt;Register/REG_Files_31_109&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_127</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_119&gt; &lt;Register/REG_Files_31_112&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_50</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_41&gt; &lt;Register/REG_Files_31_36&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_46</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_42&gt; &lt;Register/REG_Files_31_38&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_136</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_130&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_53</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_35&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_142</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_138&gt; &lt;Register/REG_Files_31_134&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_60</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_57&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_56</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_49&gt; &lt;Register/REG_Files_31_47&gt; &lt;Register/REG_Files_31_43&gt; &lt;Register/REG_Files_31_39&gt; &lt;Register/REG_Files_31_32&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_200</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_194&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_62</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_54&gt; &lt;Register/REG_Files_31_45&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_146</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_137&gt; &lt;Register/REG_Files_31_132&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_63</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_55&gt; &lt;Register/REG_Files_31_48&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_152</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_145&gt; &lt;Register/REG_Files_31_143&gt; &lt;Register/REG_Files_31_139&gt; &lt;Register/REG_Files_31_135&gt; &lt;Register/REG_Files_31_128&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_149</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_131&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_210</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_201&gt; &lt;Register/REG_Files_31_196&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_72</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_66&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_206</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_202&gt; &lt;Register/REG_Files_31_198&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_156</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_153&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_213</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_195&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_158</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_150&gt; &lt;Register/REG_Files_31_141&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_159</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_151&gt; &lt;Register/REG_Files_31_144&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_220</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_217&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_82</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_73&gt; &lt;Register/REG_Files_31_68&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_216</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_209&gt; &lt;Register/REG_Files_31_207&gt; &lt;Register/REG_Files_31_203&gt; &lt;Register/REG_Files_31_199&gt; &lt;Register/REG_Files_31_192&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_78</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_74&gt; &lt;Register/REG_Files_31_70&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_222</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_214&gt; &lt;Register/REG_Files_31_205&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_223</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_215&gt; &lt;Register/REG_Files_31_208&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_85</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_67&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_168</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_162&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_174</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_170&gt; &lt;Register/REG_Files_31_166&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_92</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_89&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_181</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_163&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_88</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_81&gt; &lt;Register/REG_Files_31_79&gt; &lt;Register/REG_Files_31_75&gt; &lt;Register/REG_Files_31_71&gt; &lt;Register/REG_Files_31_64&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_232</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_226&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_94</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_86&gt; &lt;Register/REG_Files_31_77&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_178</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_169&gt; &lt;Register/REG_Files_31_164&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_95</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_87&gt; &lt;Register/REG_Files_31_80&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_184</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_177&gt; &lt;Register/REG_Files_31_175&gt; &lt;Register/REG_Files_31_171&gt; &lt;Register/REG_Files_31_167&gt; &lt;Register/REG_Files_31_160&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_190</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_182&gt; &lt;Register/REG_Files_31_173&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_191</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_183&gt; &lt;Register/REG_Files_31_176&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_242</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_233&gt; &lt;Register/REG_Files_31_228&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_238</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_234&gt; &lt;Register/REG_Files_31_230&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_188</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_185&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_245</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_227&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_302</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_298&gt; &lt;Register/REG_Files_31_294&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_252</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_249&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_248</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_241&gt; &lt;Register/REG_Files_31_239&gt; &lt;Register/REG_Files_31_235&gt; &lt;Register/REG_Files_31_231&gt; &lt;Register/REG_Files_31_224&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_254</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_246&gt; &lt;Register/REG_Files_31_237&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_255</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_247&gt; &lt;Register/REG_Files_31_240&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_306</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_297&gt; &lt;Register/REG_Files_31_292&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_312</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_305&gt; &lt;Register/REG_Files_31_303&gt; &lt;Register/REG_Files_31_299&gt; &lt;Register/REG_Files_31_295&gt; &lt;Register/REG_Files_31_288&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_264</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_258&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_309</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_291&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_270</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_266&gt; &lt;Register/REG_Files_31_262&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_316</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_313&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_318</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_310&gt; &lt;Register/REG_Files_31_301&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_274</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_265&gt; &lt;Register/REG_Files_31_260&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_319</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_311&gt; &lt;Register/REG_Files_31_304&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_280</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_273&gt; &lt;Register/REG_Files_31_271&gt; &lt;Register/REG_Files_31_267&gt; &lt;Register/REG_Files_31_263&gt; &lt;Register/REG_Files_31_256&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_277</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_259&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_328</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_322&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_284</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_281&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_334</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_330&gt; &lt;Register/REG_Files_31_326&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_286</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_278&gt; &lt;Register/REG_Files_31_269&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_341</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_323&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_287</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_279&gt; &lt;Register/REG_Files_31_272&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_338</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_329&gt; &lt;Register/REG_Files_31_324&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_344</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_337&gt; &lt;Register/REG_Files_31_335&gt; &lt;Register/REG_Files_31_331&gt; &lt;Register/REG_Files_31_327&gt; &lt;Register/REG_Files_31_320&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_350</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_342&gt; &lt;Register/REG_Files_31_333&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_296</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_290&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_351</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_343&gt; &lt;Register/REG_Files_31_336&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_402</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_393&gt; &lt;Register/REG_Files_31_388&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_348</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_345&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_360</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_354&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_405</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_387&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_412</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_409&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_408</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_401&gt; &lt;Register/REG_Files_31_399&gt; &lt;Register/REG_Files_31_395&gt; &lt;Register/REG_Files_31_391&gt; &lt;Register/REG_Files_31_384&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_414</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_406&gt; &lt;Register/REG_Files_31_397&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_370</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_361&gt; &lt;Register/REG_Files_31_356&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_415</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_407&gt; &lt;Register/REG_Files_31_400&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_366</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_362&gt; &lt;Register/REG_Files_31_358&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_373</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_355&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_424</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_418&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_380</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_377&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_430</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_426&gt; &lt;Register/REG_Files_31_422&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_376</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_369&gt; &lt;Register/REG_Files_31_367&gt; &lt;Register/REG_Files_31_363&gt; &lt;Register/REG_Files_31_359&gt; &lt;Register/REG_Files_31_352&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_382</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_374&gt; &lt;Register/REG_Files_31_365&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_383</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_375&gt; &lt;Register/REG_Files_31_368&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_434</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_425&gt; &lt;Register/REG_Files_31_420&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_440</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_433&gt; &lt;Register/REG_Files_31_431&gt; &lt;Register/REG_Files_31_427&gt; &lt;Register/REG_Files_31_423&gt; &lt;Register/REG_Files_31_416&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_392</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_386&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_437</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_419&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_444</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_441&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_446</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_438&gt; &lt;Register/REG_Files_31_429&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_501</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_483&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_447</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_439&gt; &lt;Register/REG_Files_31_432&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_398</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_394&gt; &lt;Register/REG_Files_31_390&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_504</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_497&gt; &lt;Register/REG_Files_31_495&gt; &lt;Register/REG_Files_31_491&gt; &lt;Register/REG_Files_31_487&gt; &lt;Register/REG_Files_31_480&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_510</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_502&gt; &lt;Register/REG_Files_31_493&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_456</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_450&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_511</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_503&gt; &lt;Register/REG_Files_31_496&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_462</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_458&gt; &lt;Register/REG_Files_31_454&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_508</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_505&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_520</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_514&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_466</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_457&gt; &lt;Register/REG_Files_31_452&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_472</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_465&gt; &lt;Register/REG_Files_31_463&gt; &lt;Register/REG_Files_31_459&gt; &lt;Register/REG_Files_31_455&gt; &lt;Register/REG_Files_31_448&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_469</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_451&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_530</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_521&gt; &lt;Register/REG_Files_31_516&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_476</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_473&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_526</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_522&gt; &lt;Register/REG_Files_31_518&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_478</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_470&gt; &lt;Register/REG_Files_31_461&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_533</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_515&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_479</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_471&gt; &lt;Register/REG_Files_31_464&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_540</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_537&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_536</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_529&gt; &lt;Register/REG_Files_31_527&gt; &lt;Register/REG_Files_31_523&gt; &lt;Register/REG_Files_31_519&gt; &lt;Register/REG_Files_31_512&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_542</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_534&gt; &lt;Register/REG_Files_31_525&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_488</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_482&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_543</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_535&gt; &lt;Register/REG_Files_31_528&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_494</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_490&gt; &lt;Register/REG_Files_31_486&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_600</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_593&gt; &lt;Register/REG_Files_31_591&gt; &lt;Register/REG_Files_31_587&gt; &lt;Register/REG_Files_31_583&gt; &lt;Register/REG_Files_31_576&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_552</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_546&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_498</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_489&gt; &lt;Register/REG_Files_31_484&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_604</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_601&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_606</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_598&gt; &lt;Register/REG_Files_31_589&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_562</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_553&gt; &lt;Register/REG_Files_31_548&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_607</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_599&gt; &lt;Register/REG_Files_31_592&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_558</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_554&gt; &lt;Register/REG_Files_31_550&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_565</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_547&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_616</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_610&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_572</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_569&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_622</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_618&gt; &lt;Register/REG_Files_31_614&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_568</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_561&gt; &lt;Register/REG_Files_31_559&gt; &lt;Register/REG_Files_31_555&gt; &lt;Register/REG_Files_31_551&gt; &lt;Register/REG_Files_31_544&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_574</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_566&gt; &lt;Register/REG_Files_31_557&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_575</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_567&gt; &lt;Register/REG_Files_31_560&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_626</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_617&gt; &lt;Register/REG_Files_31_612&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_632</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_625&gt; &lt;Register/REG_Files_31_623&gt; &lt;Register/REG_Files_31_619&gt; &lt;Register/REG_Files_31_615&gt; &lt;Register/REG_Files_31_608&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_584</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_578&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_629</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_611&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_590</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_586&gt; &lt;Register/REG_Files_31_582&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_636</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_633&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_638</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_630&gt; &lt;Register/REG_Files_31_621&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_594</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_585&gt; &lt;Register/REG_Files_31_580&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_639</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_631&gt; &lt;Register/REG_Files_31_624&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_700</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_697&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_597</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_579&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_702</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_694&gt; &lt;Register/REG_Files_31_685&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_648</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_642&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_703</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_695&gt; &lt;Register/REG_Files_31_688&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_654</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_650&gt; &lt;Register/REG_Files_31_646&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_661</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_643&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_712</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_706&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_658</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_649&gt; &lt;Register/REG_Files_31_644&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_664</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_657&gt; &lt;Register/REG_Files_31_655&gt; &lt;Register/REG_Files_31_651&gt; &lt;Register/REG_Files_31_647&gt; &lt;Register/REG_Files_31_640&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_670</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_662&gt; &lt;Register/REG_Files_31_653&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_671</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_663&gt; &lt;Register/REG_Files_31_656&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_722</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_713&gt; &lt;Register/REG_Files_31_708&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_668</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_665&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_718</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_714&gt; &lt;Register/REG_Files_31_710&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_680</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_674&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_725</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_707&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_732</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_729&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_728</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_721&gt; &lt;Register/REG_Files_31_719&gt; &lt;Register/REG_Files_31_715&gt; &lt;Register/REG_Files_31_711&gt; &lt;Register/REG_Files_31_704&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_734</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_726&gt; &lt;Register/REG_Files_31_717&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_690</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_681&gt; &lt;Register/REG_Files_31_676&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_735</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_727&gt; &lt;Register/REG_Files_31_720&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_686</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_682&gt; &lt;Register/REG_Files_31_678&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_693</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_675&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_744</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_738&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_750</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_746&gt; &lt;Register/REG_Files_31_742&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_696</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_689&gt; &lt;Register/REG_Files_31_687&gt; &lt;Register/REG_Files_31_683&gt; &lt;Register/REG_Files_31_679&gt; &lt;Register/REG_Files_31_672&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_754</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_745&gt; &lt;Register/REG_Files_31_740&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_760</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_753&gt; &lt;Register/REG_Files_31_751&gt; &lt;Register/REG_Files_31_747&gt; &lt;Register/REG_Files_31_743&gt; &lt;Register/REG_Files_31_736&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_757</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_739&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_808</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_802&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_764</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_761&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_814</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_810&gt; &lt;Register/REG_Files_31_806&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_766</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_758&gt; &lt;Register/REG_Files_31_749&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_821</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_803&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_767</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_759&gt; &lt;Register/REG_Files_31_752&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_818</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_809&gt; &lt;Register/REG_Files_31_804&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_824</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_817&gt; &lt;Register/REG_Files_31_815&gt; &lt;Register/REG_Files_31_811&gt; &lt;Register/REG_Files_31_807&gt; &lt;Register/REG_Files_31_800&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_830</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_822&gt; &lt;Register/REG_Files_31_813&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_776</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_770&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_831</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_823&gt; &lt;Register/REG_Files_31_816&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_782</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_778&gt; &lt;Register/REG_Files_31_774&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_828</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_825&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_840</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_834&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_786</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_777&gt; &lt;Register/REG_Files_31_772&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_792</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_785&gt; &lt;Register/REG_Files_31_783&gt; &lt;Register/REG_Files_31_779&gt; &lt;Register/REG_Files_31_775&gt; &lt;Register/REG_Files_31_768&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_789</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_771&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_850</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_841&gt; &lt;Register/REG_Files_31_836&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_796</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_793&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_846</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_842&gt; &lt;Register/REG_Files_31_838&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_798</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_790&gt; &lt;Register/REG_Files_31_781&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Register/REG_Files_31_853</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS_REG_Exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Register/REG_Files_31_835&gt; </arg>
+</msg>
+
+</messages>
+

@@ -1,0 +1,7 @@
+verilog work "ipcore_dir/ROM_B.v"
+verilog work "REGS.v"
+verilog work "ipcore_dir/RAM_B.v"
+verilog work "IF.v"
+verilog work "ALU.v"
+verilog work "RI_CPU.v"
+verilog work "D:/Xilinx/13.4/ISE_DS/ISE//verilog/src/glbl.v"

@@ -1,0 +1,16 @@
+NET "A[3]" LOC = T5;		//SW7
+NET "A[2]" LOC = V8;		//SW6
+NET "A[1]" LOC = U8;		//SW5
+NET "A[0]" LOC = N8;		//SW4
+NET "B[3]" LOC = M8;		//SW3
+NET "B[2]" LOC = V9;		//SW2
+NET "B[1]" LOC = T9;		//SW1
+NET "B[0]" LOC = T10;	//SW0
+NET "C0" LOC = C4;		//BTNL
+
+
+NET "C4" LOC = T11;		//LED7
+NET "F[3]" LOC = V15;	//LED3
+NET "F[2]" LOC = U15;	//LED2
+NET "F[1]" LOC = V16;	//LED1
+NET "F[0]" LOC = U16;	//LED0

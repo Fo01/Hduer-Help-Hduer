@@ -1,0 +1,19 @@
+Release 13.4 - netgen O.87xd (nt)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+Command Line: netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis
+-ofmt verilog -sim ALU_8F_EXP.ngc ALU_8F_EXP_synthesis.v  
+
+Reading design 'ALU_8F_EXP.ngc' ...
+Flattening design ...
+Processing design ... 
+  Preping design's networks ...
+  Preping design's macros ...
+Writing Verilog netlist file
+'D:\Logic\ZC_EXP\EXP2_ALU\netgen\synthesis\ALU_8F_EXP_synthesis.v' ...
+INFO:NetListWriters:633 - The generated Verilog netlist contains Xilinx UNISIM
+   simulation primitives and has to be used with UNISIM simulation library for
+   correct compilation and simulation. 
+Number of warnings: 0
+Number of info messages: 1
+Total memory usage is 79436 kilobytes

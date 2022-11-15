@@ -1,0 +1,164 @@
+Messages
+=========================
+SPIM Version 8.0 of January 8, 2010
+Copyright 1990-2010, James R. Larus.
+All Rights Reserved.
+DOS and Windows ports by David A. Carley.
+Copyright 1997, Morgan Kaufmann Publishers, Inc.
+See the file README for a full copyright notice.
+Memory and registers cleared and the simulator reinitialized.
+
+SPIM Version 8.0 of January 8, 2010
+Copyright 1990-2010, James R. Larus.
+All Rights Reserved.
+DOS and Windows ports by David A. Carley.
+Copyright 1997, Morgan Kaufmann Publishers, Inc.
+See the file README for a full copyright notice.
+Memory and registers cleared and the simulator reinitialized.
+
+SPIM Version 8.0 of January 8, 2010
+Copyright 1990-2010, James R. Larus.
+All Rights Reserved.
+DOS and Windows ports by David A. Carley.
+Copyright 1997, Morgan Kaufmann Publishers, Inc.
+See the file README for a full copyright notice.
+Memory and registers cleared and the simulator reinitialized.
+
+SPIM Version 8.0 of January 8, 2010
+Copyright 1990-2010, James R. Larus.
+All Rights Reserved.
+DOS and Windows ports by David A. Carley.
+Copyright 1997, Morgan Kaufmann Publishers, Inc.
+See the file README for a full copyright notice.
+Load terminated. Check code and simulator settings and try again.
+Memory and registers cleared and the simulator reinitialized.
+
+SPIM Version 8.0 of January 8, 2010
+Copyright 1990-2010, James R. Larus.
+All Rights Reserved.
+DOS and Windows ports by David A. Carley.
+Copyright 1997, Morgan Kaufmann Publishers, Inc.
+See the file README for a full copyright notice.
+Load terminated. Check code and simulator settings and try again.
+Memory and registers cleared and the simulator reinitialized.
+
+SPIM Version 8.0 of January 8, 2010
+Copyright 1990-2010, James R. Larus.
+All Rights Reserved.
+DOS and Windows ports by David A. Carley.
+Copyright 1997, Morgan Kaufmann Publishers, Inc.
+See the file README for a full copyright notice.
+Load terminated. Check code and simulator settings and try again.
+Memory and registers cleared and the simulator reinitialized.
+
+SPIM Version 8.0 of January 8, 2010
+Copyright 1990-2010, James R. Larus.
+All Rights Reserved.
+DOS and Windows ports by David A. Carley.
+Copyright 1997, Morgan Kaufmann Publishers, Inc.
+See the file README for a full copyright notice.
+Load terminated. Check code and simulator settings and try again.
+Memory and registers cleared and the simulator reinitialized.
+
+SPIM Version 8.0 of January 8, 2010
+Copyright 1990-2010, James R. Larus.
+All Rights Reserved.
+DOS and Windows ports by David A. Carley.
+Copyright 1997, Morgan Kaufmann Publishers, Inc.
+See the file README for a full copyright notice.
+Memory and registers cleared and the simulator reinitialized.
+
+SPIM Version 8.0 of January 8, 2010
+Copyright 1990-2010, James R. Larus.
+All Rights Reserved.
+DOS and Windows ports by David A. Carley.
+Copyright 1997, Morgan Kaufmann Publishers, Inc.
+See the file README for a full copyright notice.
+Load terminated. Check code and simulator settings and try again.
+Memory and registers cleared and the simulator reinitialized.
+
+SPIM Version 8.0 of January 8, 2010
+Copyright 1990-2010, James R. Larus.
+All Rights Reserved.
+DOS and Windows ports by David A. Carley.
+Copyright 1997, Morgan Kaufmann Publishers, Inc.
+See the file README for a full copyright notice.
+D:\FPGAJX\ZC_EXP\EXP10_RIJ_CPU\RIJ_CPU_Test2.asm successfully loaded
+Attempt to execute non-instruction at 0x80000180
+[0x00400000]        0x00002020  add $4, $0, $0                  ; 2: add        $a0,        $zero, $zero;                        #$a0=0000_0000，源数据区域首址
+[0x00400004]        0x20050014  addi $5, $0, 20                 ; 3: addi        $a1,        $zero, 20;                        #$a1=0000_0014，目的数据区域首址
+[0x00400008]        0x2006000a  addi $6, $0, 10                 ; 4: addi        $a2,        $zero, 10;                        #$a2=0000_000a，复制的数据个数
+[0x0040000c]        0x0c100004  jal 0x00400010 [BankMove]       ; 5: jal        BankMove                                #子程序调用
+[0x00400010]        0x00804020  add $8, $4, $0                  ; 7: add        $t0,        $a0,        $zero;                         #$t0=源数据区域首址
+[0x00400010]        0x00804020  add $8, $4, $0                  ; 7: add        $t0,        $a0,        $zero;                         #$t0=源数据区域首址
+[0x00400014]        0x00a04820  add $9, $5, $0                  ; 8: add        $t1,        $a1,        $zero;                        #$t1=目的数据区域首址
+[0x00400018]        0x00c05020  add $10, $6, $0                 ; 9: add        $t2,        $a2,        $zero;                        #$t2=数据块长度
+[0x0040001c]        0x8d0b0000  lw $11, 0($8)                   ; 10: lw        $t3,        0($t0);                                #$t3=取出数据
+
+
+Registers
+=========================
+ PC      = 80000180   EPC     = 0040001c   Cause   = 0000001c   BadVAddr= 00000000
+ Status  = 3000ff12   HI      = 00000000   LO      = 00000000
+                                 General Registers
+R0  (r0) = 00000000  R8  (t0) = 00000000  R16 (s0) = 00000000  R24 (t8) = 00000000
+R1  (at) = 00000000  R9  (t1) = 00000014  R17 (s1) = 00000000  R25 (t9) = 00000000
+R2  (v0) = 00000000  R10 (t2) = 0000000a  R18 (s2) = 00000000  R26 (k0) = 00000000
+R3  (v1) = 00000000  R11 (t3) = 00000000  R19 (s3) = 00000000  R27 (k1) = 00000000
+R4  (a0) = 00000000  R12 (t4) = 00000000  R20 (s4) = 00000000  R28 (gp) = 00000000
+R5  (a1) = 00000014  R13 (t5) = 00000000  R21 (s5) = 00000000  R29 (sp) = 7ffff878
+R6  (a2) = 0000000a  R14 (t6) = 00000000  R22 (s6) = 00000000  R30 (s8) = 00000000
+R7  (a3) = 00000000  R15 (t7) = 00000000  R23 (s7) = 00000000  R31 (ra) = 00400014
+
+ FIR    = 00009800    FCSR    = 00000000    FCCR   = 00000000   FEXR    = 00000000
+ FENR   = 00000000
+                              Double Floating Point Registers
+FP0  = 0.000000      FP8  = 0.000000      FP16 = 0.000000      FP24 = 0.000000     
+FP2  = 0.000000      FP10 = 0.000000      FP18 = 0.000000      FP26 = 0.000000     
+FP4  = 0.000000      FP12 = 0.000000      FP20 = 0.000000      FP28 = 0.000000     
+FP6  = 0.000000      FP14 = 0.000000      FP22 = 0.000000      FP30 = 0.000000     
+                              Single Floating Point Registers
+FP0  = 0.000000      FP8  = 0.000000      FP16 = 0.000000      FP24 = 0.000000     
+FP1  = 0.000000      FP9  = 0.000000      FP17 = 0.000000      FP25 = 0.000000     
+FP2  = 0.000000      FP10 = 0.000000      FP18 = 0.000000      FP26 = 0.000000     
+FP3  = 0.000000      FP11 = 0.000000      FP19 = 0.000000      FP27 = 0.000000     
+FP4  = 0.000000      FP12 = 0.000000      FP20 = 0.000000      FP28 = 0.000000     
+FP5  = 0.000000      FP13 = 0.000000      FP21 = 0.000000      FP29 = 0.000000     
+FP6  = 0.000000      FP14 = 0.000000      FP22 = 0.000000      FP30 = 0.000000     
+FP7  = 0.000000      FP15 = 0.000000      FP23 = 0.000000      FP31 = 0.000000     
+
+
+Console
+=========================
+
+
+Text Segment
+=========================
+[0x00400000]        0x00002020  add $4, $0, $0                  ; 2: add        $a0,        $zero, $zero;                        #$a0=0000_0000，源数据区域首址
+[0x00400004]        0x20050014  addi $5, $0, 20                 ; 3: addi        $a1,        $zero, 20;                        #$a1=0000_0014，目的数据区域首址
+[0x00400008]        0x2006000a  addi $6, $0, 10                 ; 4: addi        $a2,        $zero, 10;                        #$a2=0000_000a，复制的数据个数
+[0x0040000c]        0x0c100004  jal 0x00400010 [BankMove]       ; 5: jal        BankMove                                #子程序调用
+[0x00400010]        0x00804020  add $8, $4, $0                  ; 7: add        $t0,        $a0,        $zero;                         #$t0=源数据区域首址
+[0x00400014]        0x00a04820  add $9, $5, $0                  ; 8: add        $t1,        $a1,        $zero;                        #$t1=目的数据区域首址
+[0x00400018]        0x00c05020  add $10, $6, $0                 ; 9: add        $t2,        $a2,        $zero;                        #$t2=数据块长度
+[0x0040001c]        0x8d0b0000  lw $11, 0($8)                   ; 10: lw        $t3,        0($t0);                                #$t3=取出数据
+[0x00400020]        0xad2b0000  sw $11, 0($9)                   ; 11: sw        $t3,        0($t1);                         #存数据
+[0x00400024]        0x214affff  addi $10, $10, -1               ; 12: addi        $t2,        $t2,        -1;                        #计数值-1
+[0x00400028]        0x1540fffc  bne $10, $0, -16 [Loop1-0x00400028]; 13: bne        $t2, $zero, Loop1;                        #计数值≠0，则没有复制完，转循环体首部
+[0x0040002c]        0x03e00008  jr $31                          ; 14: jr        $ra                                        #复制完成，则子程序返回
+
+        KERNEL
+
+
+Data Segment
+=========================
+        DATA
+[0x10000000]...[0x10040000]        0x00000000
+
+        STACK
+[0x7ffff878]                        0x00000000  0x00000000
+
+        KERNEL DATA
+[0x90000000]...[0x90010000]        0x00000000
+
+

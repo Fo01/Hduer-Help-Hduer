@@ -1,0 +1,34 @@
+xst -intstyle ise -ifn "D:/FPGAJX/ZC_EXP/EXP10_RIJ_CPU/RIJ_CPU_Exp.xst" -ofn "D:/FPGAJX/ZC_EXP/EXP10_RIJ_CPU/RIJ_CPU_Exp.syr" 
+xst -intstyle ise -ifn "D:/FPGAJX/ZC_EXP/EXP10_RIJ_CPU/RIJ_CPU_Exp.xst" -ofn "D:/FPGAJX/ZC_EXP/EXP10_RIJ_CPU/RIJ_CPU_Exp.syr" 
+xst -intstyle ise -ifn "D:/FPGAJX/ZC_EXP/EXP10_RIJ_CPU/RIJ_CPU_Exp.xst" -ofn "D:/FPGAJX/ZC_EXP/EXP10_RIJ_CPU/RIJ_CPU_Exp.syr" 
+xst -intstyle ise -ifn "D:/FPGAJX/ZC_EXP/EXP10_RIJ_CPU/RIJ_CPU_Exp.xst" -ofn "D:/FPGAJX/ZC_EXP/EXP10_RIJ_CPU/RIJ_CPU_Exp.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc RIJ_CPU.ucf -p xc6slx16-csg324-3 RIJ_CPU_Exp.ngc RIJ_CPU_Exp.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o RIJ_CPU_Exp_map.ncd RIJ_CPU_Exp.ngd RIJ_CPU_Exp.pcf 
+par -w -intstyle ise -ol high -mt off RIJ_CPU_Exp_map.ncd RIJ_CPU_Exp.ncd RIJ_CPU_Exp.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml RIJ_CPU_Exp.twx RIJ_CPU_Exp.ncd -o RIJ_CPU_Exp.twr RIJ_CPU_Exp.pcf -ucf RIJ_CPU.ucf 
+bitgen -intstyle ise -f RIJ_CPU_Exp.ut RIJ_CPU_Exp.ncd 
+xst -intstyle ise -ifn "D:/FPGAJX/ZC_EXP/EXP10_RIJ_CPU/RIJ_CPU_Exp.xst" -ofn "D:/FPGAJX/ZC_EXP/EXP10_RIJ_CPU/RIJ_CPU_Exp.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc RIJ_CPU.ucf -p xc6slx16-csg324-3 RIJ_CPU_Exp.ngc RIJ_CPU_Exp.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o RIJ_CPU_Exp_map.ncd RIJ_CPU_Exp.ngd RIJ_CPU_Exp.pcf 
+par -w -intstyle ise -ol high -mt off RIJ_CPU_Exp_map.ncd RIJ_CPU_Exp.ncd RIJ_CPU_Exp.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml RIJ_CPU_Exp.twx RIJ_CPU_Exp.ncd -o RIJ_CPU_Exp.twr RIJ_CPU_Exp.pcf -ucf RIJ_CPU.ucf 
+bitgen -intstyle ise -f RIJ_CPU_Exp.ut RIJ_CPU_Exp.ncd 
+xst -intstyle ise -ifn "D:/FPGAJX/ZC_EXP/EXP10_RIJ_CPU/RIJ_CPU_Exp.xst" -ofn "D:/FPGAJX/ZC_EXP/EXP10_RIJ_CPU/RIJ_CPU_Exp.syr" 
+xst -intstyle ise -ifn "D:/FPGAJX/ZC_EXP/EXP10_RIJ_CPU/RIJ_CPU_Exp.xst" -ofn "D:/FPGAJX/ZC_EXP/EXP10_RIJ_CPU/RIJ_CPU_Exp.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc RIJ_CPU.ucf -p xc6slx16-csg324-3 RIJ_CPU_Exp.ngc RIJ_CPU_Exp.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o RIJ_CPU_Exp_map.ncd RIJ_CPU_Exp.ngd RIJ_CPU_Exp.pcf 
+par -w -intstyle ise -ol high -mt off RIJ_CPU_Exp_map.ncd RIJ_CPU_Exp.ncd RIJ_CPU_Exp.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml RIJ_CPU_Exp.twx RIJ_CPU_Exp.ncd -o RIJ_CPU_Exp.twr RIJ_CPU_Exp.pcf -ucf RIJ_CPU.ucf 
+bitgen -intstyle ise -f RIJ_CPU_Exp.ut RIJ_CPU_Exp.ncd 
+xst -intstyle ise -ifn "D:/FPGAJX/ZC_EXP/EXP10_RIJ_CPU/RIJ_CPU_Exp.xst" -ofn "D:/FPGAJX/ZC_EXP/EXP10_RIJ_CPU/RIJ_CPU_Exp.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc RIJ_CPU.ucf -p xc6slx16-csg324-3 RIJ_CPU_Exp.ngc RIJ_CPU_Exp.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o RIJ_CPU_Exp_map.ncd RIJ_CPU_Exp.ngd RIJ_CPU_Exp.pcf 
+par -w -intstyle ise -ol high -mt off RIJ_CPU_Exp_map.ncd RIJ_CPU_Exp.ncd RIJ_CPU_Exp.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml RIJ_CPU_Exp.twx RIJ_CPU_Exp.ncd -o RIJ_CPU_Exp.twr RIJ_CPU_Exp.pcf -ucf RIJ_CPU.ucf 
+bitgen -intstyle ise -f RIJ_CPU_Exp.ut RIJ_CPU_Exp.ncd 
+xst -intstyle ise -ifn "D:/FPGAJX/ZC_EXP/EXP10_RIJ_CPU/RIJ_CPU_Exp.xst" -ofn "D:/FPGAJX/ZC_EXP/EXP10_RIJ_CPU/RIJ_CPU_Exp.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc RIJ_CPU.ucf -p xc6slx16-csg324-3 RIJ_CPU_Exp.ngc RIJ_CPU_Exp.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o RIJ_CPU_Exp_map.ncd RIJ_CPU_Exp.ngd RIJ_CPU_Exp.pcf 
+par -w -intstyle ise -ol high -mt off RIJ_CPU_Exp_map.ncd RIJ_CPU_Exp.ncd RIJ_CPU_Exp.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml RIJ_CPU_Exp.twx RIJ_CPU_Exp.ncd -o RIJ_CPU_Exp.twr RIJ_CPU_Exp.pcf -ucf RIJ_CPU.ucf 
+bitgen -intstyle ise -f RIJ_CPU_Exp.ut RIJ_CPU_Exp.ncd 

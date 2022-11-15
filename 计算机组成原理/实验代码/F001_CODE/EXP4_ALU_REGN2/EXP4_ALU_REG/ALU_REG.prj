@@ -1,0 +1,3 @@
+verilog work "MIPS_REG.v"
+verilog work "ALU_8F.v"
+verilog work "ALU_REG.v"

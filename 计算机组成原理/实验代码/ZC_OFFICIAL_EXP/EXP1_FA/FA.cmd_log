@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "D:/Logic/ZC_EXP/EXP1_FA/FA.xst" -ofn "D:/Logic/ZC_EXP/EXP1_FA/FA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FA.ucf -p xc6slx16-csg324-3 FA.ngc FA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FA_map.ncd FA.ngd FA.pcf 
+par -w -intstyle ise -ol high -mt off FA_map.ncd FA.ncd FA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FA.twx FA.ncd -o FA.twr FA.pcf -ucf FA.ucf 
+bitgen -intstyle ise -f FA.ut FA.ncd 
+xst -intstyle ise -ifn "D:/Logic/ZC_EXP/EXP1_FA/FA.xst" -ofn "D:/Logic/ZC_EXP/EXP1_FA/FA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FA.ucf -p xc6slx16-csg324-3 FA.ngc FA.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FA_map.ncd FA.ngd FA.pcf 
+par -w -intstyle ise -ol high -mt off FA_map.ncd FA.ncd FA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FA.twx FA.ncd -o FA.twr FA.pcf -ucf FA.ucf 
+bitgen -intstyle ise -f FA.ut FA.ncd 

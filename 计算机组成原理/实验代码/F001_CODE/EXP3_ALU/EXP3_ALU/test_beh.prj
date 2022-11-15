@@ -1,0 +1,4 @@
+verilog work "ALU_8F.v"
+verilog work "ALU_8F_EXP.v"
+verilog work "test.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

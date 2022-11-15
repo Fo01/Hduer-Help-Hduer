@@ -1,0 +1,380 @@
+Release 13.4 - xst O.87xd (nt)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.39 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.39 secs
+ 
+--> Reading design: ALU_8F_EXP.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "ALU_8F_EXP.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "ALU_8F_EXP"
+Output Format                      : NGC
+Target Device                      : xc6slx16-3-csg324
+
+---- Source Options
+Top Module Name                    : ALU_8F_EXP
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+INFO:Xst - Part-select index evaluated to out of bound value may lead to incorrect synthesis results; it is recommended not to use them in RTL
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "D:\FPGAJX\ZC_EXP\EXP3_ALU\ALU_8F.v" into library work
+Parsing module <ALU_8F>.
+Analyzing Verilog file "D:\FPGAJX\ZC_EXP\EXP3_ALU\ALU_8F_EXP.v" into library work
+Parsing module <ALU_8F_EXP>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <ALU_8F_EXP>.
+
+Elaborating module <ALU_8F>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ALU_8F_EXP>.
+    Related source file is "d:/fpgajx/zc_exp/exp3_alu/alu_8f_exp.v".
+    Found 8x64-bit Read Only RAM for signal <_n0036>
+    Found 8-bit 4-to-1 multiplexer for signal <_n0025> created at line 25.
+    Summary:
+	inferred   1 RAM(s).
+	inferred   2 Multiplexer(s).
+Unit <ALU_8F_EXP> synthesized.
+
+Synthesizing Unit <ALU_8F>.
+    Related source file is "d:/fpgajx/zc_exp/exp3_alu/alu_8f.v".
+        Zero_32 = 32'b00000000000000000000000000000000
+        One_32 = 32'b00000000000000000000000000000001
+    Found 33-bit subtractor for signal <GND_2_o_GND_2_o_sub_7_OUT> created at line 42.
+    Found 33-bit adder for signal <n0035> created at line 41.
+    Found 32-bit shifter logical right for signal <B[31]_A[31]_shift_right_9_OUT> created at line 44
+    Found 32-bit 8-to-1 multiplexer for signal <F> created at line 36.
+    Found 32-bit comparator greater for signal <A[31]_B[31]_LessThan_8_o> created at line 43
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred   1 Comparator(s).
+	inferred   5 Multiplexer(s).
+	inferred   1 Combinational logic shifter(s).
+Unit <ALU_8F> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 8x64-bit single-port Read Only RAM                    : 1
+# Adders/Subtractors                                   : 2
+ 33-bit adder                                          : 1
+ 33-bit subtractor                                     : 1
+# Comparators                                          : 1
+ 32-bit comparator greater                             : 1
+# Multiplexers                                         : 7
+ 1-bit 2-to-1 multiplexer                              : 3
+ 32-bit 2-to-1 multiplexer                             : 1
+ 32-bit 8-to-1 multiplexer                             : 1
+ 8-bit 2-to-1 multiplexer                              : 1
+ 8-bit 4-to-1 multiplexer                              : 1
+# Logic shifters                                       : 1
+ 32-bit shifter logical right                          : 1
+# Xors                                                 : 2
+ 1-bit xor4                                            : 1
+ 32-bit xor2                                           : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <ALU_8F_EXP>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram__n0036> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 8-word x 64-bit                     |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <AB_SW>         |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+Unit <ALU_8F_EXP> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 8x64-bit single-port distributed Read Only RAM        : 1
+# Adders/Subtractors                                   : 2
+ 33-bit adder                                          : 1
+ 33-bit subtractor                                     : 1
+# Comparators                                          : 1
+ 32-bit comparator greater                             : 1
+# Multiplexers                                         : 7
+ 1-bit 2-to-1 multiplexer                              : 3
+ 32-bit 2-to-1 multiplexer                             : 1
+ 32-bit 8-to-1 multiplexer                             : 1
+ 8-bit 2-to-1 multiplexer                              : 1
+ 8-bit 4-to-1 multiplexer                              : 1
+# Logic shifters                                       : 1
+ 32-bit shifter logical right                          : 1
+# Xors                                                 : 2
+ 1-bit xor4                                            : 1
+ 32-bit xor2                                           : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ALU_8F_EXP> ...
+
+Optimizing unit <ALU_8F> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ALU_8F_EXP, actual ratio is 3.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : ALU_8F_EXP.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 352
+#      GND                         : 1
+#      LUT2                        : 7
+#      LUT3                        : 98
+#      LUT4                        : 12
+#      LUT5                        : 27
+#      LUT6                        : 63
+#      MUXCY                       : 76
+#      MUXF7                       : 2
+#      VCC                         : 1
+#      XORCY                       : 65
+# IO Buffers                       : 17
+#      IBUF                        : 9
+#      OBUF                        : 8
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx16csg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice LUTs:                  207  out of   9112     2%  
+    Number used as Logic:               207  out of   9112     2%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    207
+   Number with an unused Flip Flop:     207  out of    207   100%  
+   Number with an unused LUT:             0  out of    207     0%  
+   Number of fully used LUT-FF pairs:     0  out of    207     0%  
+   Number of unique control sets:         0
+
+IO Utilization: 
+ Number of IOs:                          17
+ Number of bonded IOBs:                  17  out of    232     7%  
+
+Specific Feature Utilization:
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 14.551ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 14591 / 8
+-------------------------------------------------------------------------
+Delay:               14.551ns (Levels of Logic = 12)
+  Source:            AB_SW<0> (PAD)
+  Destination:       LED<7> (PAD)
+
+  Data Path: AB_SW<0> to LED<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O           101   1.222   2.108  AB_SW_0_IBUF (AB_SW_0_IBUF)
+     LUT3:I0->O           31   0.205   1.277  Mram__n0036111 (Mram__n003611)
+     MUXCY:DI->O           1   0.145   0.000  ALU_UUT/Madd_n0035_cy<2> (ALU_UUT/Madd_n0035_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  ALU_UUT/Madd_n0035_cy<3> (ALU_UUT/Madd_n0035_cy<3>)
+     XORCY:CI->O           1   0.180   0.808  ALU_UUT/Madd_n0035_xor<4> (ALU_UUT/n0035<4>)
+     LUT6:I3->O            1   0.205   0.944  ALU_UUT/Mmux_F262 (ALU_UUT/Mmux_F262)
+     LUT6:I0->O            2   0.203   0.981  ALU_UUT/Mmux_F264 (F<4>)
+     LUT6:I0->O            1   0.203   0.684  Mmux_LED87 (Mmux_LED86)
+     LUT6:I4->O            1   0.203   0.924  Mmux_LED88 (Mmux_LED87)
+     LUT6:I1->O            1   0.203   0.684  Mmux_LED810_SW0 (N20)
+     LUT6:I4->O            1   0.203   0.579  Mmux_LED810 (LED_7_OBUF)
+     OBUF:I->O                 2.571          LED_7_OBUF (LED<7>)
+    ----------------------------------------
+    Total                     14.551ns (5.562ns logic, 8.989ns route)
+                                       (38.2% logic, 61.8% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 12.00 secs
+Total CPU time to Xst completion: 12.58 secs
+ 
+--> 
+
+Total memory usage is 151616 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    2 (   0 filtered)
+

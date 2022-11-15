@@ -1,0 +1,47 @@
+xst -intstyle ise -ifn "D:/Logic/ZC_EXP/ALU/ALU_8F_EXP.xst" -ofn "D:/Logic/ZC_EXP/ALU/ALU_8F_EXP.syr" 
+xst -intstyle ise -ifn "D:/Logic/ZC_EXP/ALU/ALU_8F_EXP.xst" -ofn "D:/Logic/ZC_EXP/ALU/ALU_8F_EXP.syr" 
+xst -intstyle ise -ifn "D:/Logic/ZC_EXP/ALU/ALU_8F_EXP.xst" -ofn "D:/Logic/ZC_EXP/ALU/ALU_8F_EXP.syr" 
+xst -intstyle ise -ifn "D:/Logic/ZC_EXP/ALU/ALU_8F_EXP.xst" -ofn "D:/Logic/ZC_EXP/ALU/ALU_8F_EXP.syr" 
+xst -intstyle ise -ifn "D:/Logic/ZC_EXP/ALU/ALU_8F_EXP.xst" -ofn "D:/Logic/ZC_EXP/ALU/ALU_8F_EXP.syr" 
+xst -intstyle ise -ifn "D:/Logic/ZC_EXP/EXP2_ALU/ALU_8F_EXP.xst" -ofn "D:/Logic/ZC_EXP/EXP2_ALU/ALU_8F_EXP.syr" 
+xst -intstyle ise -ifn "D:/Logic/ZC_EXP/EXP2_ALU/ALU_8F_EXP.xst" -ofn "D:/Logic/ZC_EXP/EXP2_ALU/ALU_8F_EXP.syr" 
+xst -intstyle ise -ifn "D:/Logic/ZC_EXP/EXP2_ALU/ALU_8F_EXP.xst" -ofn "D:/Logic/ZC_EXP/EXP2_ALU/ALU_8F_EXP.syr" 
+xst -intstyle ise -ifn "D:/Logic/ZC_EXP/EXP2_ALU/ALU_8F_EXP.xst" -ofn "D:/Logic/ZC_EXP/EXP2_ALU/ALU_8F_EXP.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim ALU_8F_EXP.ngc ALU_8F_EXP_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 ALU_8F_EXP.ngc ALU_8F_EXP.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ALU_8F_EXP_map.ncd ALU_8F_EXP.ngd ALU_8F_EXP.pcf 
+par -w -intstyle ise -ol high -mt off ALU_8F_EXP_map.ncd ALU_8F_EXP.ncd ALU_8F_EXP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ALU_8F_EXP.twx ALU_8F_EXP.ncd -o ALU_8F_EXP.twr ALU_8F_EXP.pcf 
+bitgen -intstyle ise -f ALU_8F_EXP.ut ALU_8F_EXP.ncd 
+xst -intstyle ise -ifn "D:/Logic/ZC_EXP/EXP2_ALU/ALU_8F_EXP.xst" -ofn "D:/Logic/ZC_EXP/EXP2_ALU/ALU_8F_EXP.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ALU.ucf -p xc6slx16-csg324-3 ALU_8F_EXP.ngc ALU_8F_EXP.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ALU_8F_EXP_map.ncd ALU_8F_EXP.ngd ALU_8F_EXP.pcf 
+par -w -intstyle ise -ol high -mt off ALU_8F_EXP_map.ncd ALU_8F_EXP.ncd ALU_8F_EXP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ALU_8F_EXP.twx ALU_8F_EXP.ncd -o ALU_8F_EXP.twr ALU_8F_EXP.pcf -ucf ALU.ucf 
+bitgen -intstyle ise -f ALU_8F_EXP.ut ALU_8F_EXP.ncd 
+xst -intstyle ise -ifn "D:/Logic/ZC_EXP/EXP2_ALU/ALU_8F_EXP.xst" -ofn "D:/Logic/ZC_EXP/EXP2_ALU/ALU_8F_EXP.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ALU.ucf -p xc6slx16-csg324-3 ALU_8F_EXP.ngc ALU_8F_EXP.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ALU_8F_EXP_map.ncd ALU_8F_EXP.ngd ALU_8F_EXP.pcf 
+par -w -intstyle ise -ol high -mt off ALU_8F_EXP_map.ncd ALU_8F_EXP.ncd ALU_8F_EXP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ALU_8F_EXP.twx ALU_8F_EXP.ncd -o ALU_8F_EXP.twr ALU_8F_EXP.pcf -ucf ALU.ucf 
+bitgen -intstyle ise -f ALU_8F_EXP.ut ALU_8F_EXP.ncd 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim ALU_8F_EXP.ngc ALU_8F_EXP_synthesis.v 
+xst -intstyle ise -ifn "D:/Logic/ZC_EXP/EXP2_ALU/ALU_8F_EXP.xst" -ofn "D:/Logic/ZC_EXP/EXP2_ALU/ALU_8F_EXP.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ALU.ucf -p xc6slx16-csg324-3 ALU_8F_EXP.ngc ALU_8F_EXP.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ALU_8F_EXP_map.ncd ALU_8F_EXP.ngd ALU_8F_EXP.pcf 
+par -w -intstyle ise -ol high -mt off ALU_8F_EXP_map.ncd ALU_8F_EXP.ncd ALU_8F_EXP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ALU_8F_EXP.twx ALU_8F_EXP.ncd -o ALU_8F_EXP.twr ALU_8F_EXP.pcf -ucf ALU.ucf 
+bitgen -intstyle ise -f ALU_8F_EXP.ut ALU_8F_EXP.ncd 
+xst -intstyle ise -ifn "D:/Logic/ZC_EXP/EXP2_ALU/ALU_8F_EXP.xst" -ofn "D:/Logic/ZC_EXP/EXP2_ALU/ALU_8F_EXP.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim ALU_8F_EXP.ngc ALU_8F_EXP_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ALU.ucf -p xc6slx16-csg324-3 ALU_8F_EXP.ngc ALU_8F_EXP.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ALU_8F_EXP_map.ncd ALU_8F_EXP.ngd ALU_8F_EXP.pcf 
+par -w -intstyle ise -ol high -mt off ALU_8F_EXP_map.ncd ALU_8F_EXP.ncd ALU_8F_EXP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ALU_8F_EXP.twx ALU_8F_EXP.ncd -o ALU_8F_EXP.twr ALU_8F_EXP.pcf -ucf ALU.ucf 
+bitgen -intstyle ise -f ALU_8F_EXP.ut ALU_8F_EXP.ncd 
+xst -intstyle ise -ifn "D:/FPGAJX/ZC_EXP/EXP3_ALU/ALU_8F_EXP.xst" -ofn "D:/FPGAJX/ZC_EXP/EXP3_ALU/ALU_8F_EXP.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ALU.ucf -p xc6slx16-csg324-3 ALU_8F_EXP.ngc ALU_8F_EXP.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ALU_8F_EXP_map.ncd ALU_8F_EXP.ngd ALU_8F_EXP.pcf 
+par -w -intstyle ise -ol high -mt off ALU_8F_EXP_map.ncd ALU_8F_EXP.ncd ALU_8F_EXP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ALU_8F_EXP.twx ALU_8F_EXP.ncd -o ALU_8F_EXP.twr ALU_8F_EXP.pcf -ucf ALU.ucf 
+bitgen -intstyle ise -f ALU_8F_EXP.ut ALU_8F_EXP.ncd 

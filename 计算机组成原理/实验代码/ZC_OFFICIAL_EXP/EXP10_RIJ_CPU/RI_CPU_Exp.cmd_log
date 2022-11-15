@@ -1,0 +1,49 @@
+xst -intstyle ise -ifn "D:/FPGAJX/ZC_EXP/EXP9_RI_CPU/RI_CPU_Exp.xst" -ofn "D:/FPGAJX/ZC_EXP/EXP9_RI_CPU/RI_CPU_Exp.syr" 
+xst -intstyle ise -ifn "D:/FPGAJX/ZC_EXP/EXP9_RI_CPU/RI_CPU_Exp.xst" -ofn "D:/FPGAJX/ZC_EXP/EXP9_RI_CPU/RI_CPU_Exp.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc RI_CPU.ucf -p xc6slx16-csg324-3 RI_CPU_Exp.ngc RI_CPU_Exp.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o RI_CPU_Exp_map.ncd RI_CPU_Exp.ngd RI_CPU_Exp.pcf 
+par -w -intstyle ise -ol high -mt off RI_CPU_Exp_map.ncd RI_CPU_Exp.ncd RI_CPU_Exp.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml RI_CPU_Exp.twx RI_CPU_Exp.ncd -o RI_CPU_Exp.twr RI_CPU_Exp.pcf -ucf RI_CPU.ucf 
+bitgen -intstyle ise -f RI_CPU_Exp.ut RI_CPU_Exp.ncd 
+xst -intstyle ise -ifn "D:/FPGAJX/ZC_EXP/EXP9_RI_CPU/RI_CPU_Exp.xst" -ofn "D:/FPGAJX/ZC_EXP/EXP9_RI_CPU/RI_CPU_Exp.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc RI_CPU.ucf -p xc6slx16-csg324-3 RI_CPU_Exp.ngc RI_CPU_Exp.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o RI_CPU_Exp_map.ncd RI_CPU_Exp.ngd RI_CPU_Exp.pcf 
+par -w -intstyle ise -ol high -mt off RI_CPU_Exp_map.ncd RI_CPU_Exp.ncd RI_CPU_Exp.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml RI_CPU_Exp.twx RI_CPU_Exp.ncd -o RI_CPU_Exp.twr RI_CPU_Exp.pcf -ucf RI_CPU.ucf 
+bitgen -intstyle ise -f RI_CPU_Exp.ut RI_CPU_Exp.ncd 
+xst -intstyle ise -ifn "D:/FPGAJX/ZC_EXP/EXP9_RI_CPU/RI_CPU_Exp.xst" -ofn "D:/FPGAJX/ZC_EXP/EXP9_RI_CPU/RI_CPU_Exp.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc RI_CPU.ucf -p xc6slx16-csg324-3 RI_CPU_Exp.ngc RI_CPU_Exp.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o RI_CPU_Exp_map.ncd RI_CPU_Exp.ngd RI_CPU_Exp.pcf 
+par -w -intstyle ise -ol high -mt off RI_CPU_Exp_map.ncd RI_CPU_Exp.ncd RI_CPU_Exp.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml RI_CPU_Exp.twx RI_CPU_Exp.ncd -o RI_CPU_Exp.twr RI_CPU_Exp.pcf -ucf RI_CPU.ucf 
+bitgen -intstyle ise -f RI_CPU_Exp.ut RI_CPU_Exp.ncd 
+xst -intstyle ise -ifn "D:/FPGAJX/ZC_EXP/EXP9_RI_CPU/RI_CPU_Exp.xst" -ofn "D:/FPGAJX/ZC_EXP/EXP9_RI_CPU/RI_CPU_Exp.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc RI_CPU.ucf -p xc6slx16-csg324-3 RI_CPU_Exp.ngc RI_CPU_Exp.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o RI_CPU_Exp_map.ncd RI_CPU_Exp.ngd RI_CPU_Exp.pcf 
+par -w -intstyle ise -ol high -mt off RI_CPU_Exp_map.ncd RI_CPU_Exp.ncd RI_CPU_Exp.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml RI_CPU_Exp.twx RI_CPU_Exp.ncd -o RI_CPU_Exp.twr RI_CPU_Exp.pcf -ucf RI_CPU.ucf 
+bitgen -intstyle ise -f RI_CPU_Exp.ut RI_CPU_Exp.ncd 
+xst -intstyle ise -ifn "D:/FPGAJX/ZC_EXP/EXP9_RI_CPU/RI_CPU_Exp.xst" -ofn "D:/FPGAJX/ZC_EXP/EXP9_RI_CPU/RI_CPU_Exp.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc RI_CPU.ucf -p xc6slx16-csg324-3 RI_CPU_Exp.ngc RI_CPU_Exp.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o RI_CPU_Exp_map.ncd RI_CPU_Exp.ngd RI_CPU_Exp.pcf 
+xst -intstyle ise -ifn "D:/FPGAJX/ZC_EXP/EXP9_RI_CPU/RI_CPU_Exp.xst" -ofn "D:/FPGAJX/ZC_EXP/EXP9_RI_CPU/RI_CPU_Exp.syr" 
+xst -intstyle ise -ifn "D:/FPGAJX/ZC_EXP/EXP9_RI_CPU/RI_CPU_Exp.xst" -ofn "D:/FPGAJX/ZC_EXP/EXP9_RI_CPU/RI_CPU_Exp.syr" 
+xst -intstyle ise -ifn "D:/FPGAJX/ZC_EXP/EXP9_RI_CPU/RI_CPU_Exp.xst" -ofn "D:/FPGAJX/ZC_EXP/EXP9_RI_CPU/RI_CPU_Exp.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc RI_CPU.ucf -p xc6slx16-csg324-3 RI_CPU_Exp.ngc RI_CPU_Exp.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o RI_CPU_Exp_map.ncd RI_CPU_Exp.ngd RI_CPU_Exp.pcf 
+par -w -intstyle ise -ol high -mt off RI_CPU_Exp_map.ncd RI_CPU_Exp.ncd RI_CPU_Exp.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml RI_CPU_Exp.twx RI_CPU_Exp.ncd -o RI_CPU_Exp.twr RI_CPU_Exp.pcf -ucf RI_CPU.ucf 
+bitgen -intstyle ise -f RI_CPU_Exp.ut RI_CPU_Exp.ncd 
+xst -intstyle ise -ifn "D:/FPGAJX/ZC_EXP/EXP9_RI_CPU/RI_CPU_Exp.xst" -ofn "D:/FPGAJX/ZC_EXP/EXP9_RI_CPU/RI_CPU_Exp.syr" 
+xst -intstyle ise -ifn "D:/FPGAJX/ZC_EXP/EXP9_RI_CPU/RI_CPU_Exp.xst" -ofn "D:/FPGAJX/ZC_EXP/EXP9_RI_CPU/RI_CPU_Exp.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc RI_CPU.ucf -p xc6slx16-csg324-3 RI_CPU_Exp.ngc RI_CPU_Exp.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o RI_CPU_Exp_map.ncd RI_CPU_Exp.ngd RI_CPU_Exp.pcf 
+par -w -intstyle ise -ol high -mt off RI_CPU_Exp_map.ncd RI_CPU_Exp.ncd RI_CPU_Exp.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml RI_CPU_Exp.twx RI_CPU_Exp.ncd -o RI_CPU_Exp.twr RI_CPU_Exp.pcf -ucf RI_CPU.ucf 
+bitgen -intstyle ise -f RI_CPU_Exp.ut RI_CPU_Exp.ncd 
+xst -intstyle ise -ifn "D:/FPGAJX/ZC_EXP/EXP9_RI_CPU/RI_CPU_Exp.xst" -ofn "D:/FPGAJX/ZC_EXP/EXP9_RI_CPU/RI_CPU_Exp.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc RI_CPU.ucf -p xc6slx16-csg324-3 RI_CPU_Exp.ngc RI_CPU_Exp.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o RI_CPU_Exp_map.ncd RI_CPU_Exp.ngd RI_CPU_Exp.pcf 
+par -w -intstyle ise -ol high -mt off RI_CPU_Exp_map.ncd RI_CPU_Exp.ncd RI_CPU_Exp.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml RI_CPU_Exp.twx RI_CPU_Exp.ncd -o RI_CPU_Exp.twr RI_CPU_Exp.pcf -ucf RI_CPU.ucf 
+bitgen -intstyle ise -f RI_CPU_Exp.ut RI_CPU_Exp.ncd 

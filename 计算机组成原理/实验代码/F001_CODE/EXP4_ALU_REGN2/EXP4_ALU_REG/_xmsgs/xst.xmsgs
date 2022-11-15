@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="HDLCompiler" num="1401" delta="new" >"E:\Computer Orgnization\EXP4_ALU_REGN2\EXP4_ALU_REG\ALU_REG.v" Line 42: Signal <arg fmt="%s" index="1">R_Data_A[31]</arg> in unit <arg fmt="%s" index="2">ALU_REG</arg> is connected to following multiple drivers:
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1401" delta="new" >"E:\Computer Orgnization\EXP4_ALU_REGN2\EXP4_ALU_REG\ALU_REG.v" Line 39: Signal <arg fmt="%s" index="1">W_Data[31]</arg> in unit <arg fmt="%s" index="2">ALU_REG</arg> is connected to following multiple drivers:
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1499" delta="new" >"E:\Computer Orgnization\EXP4_ALU_REGN2\EXP4_ALU_REG\ALU_REG.v" Line 21: Empty module &lt;<arg fmt="%s" index="1">ALU_REG</arg>&gt; remains a black box.
+</msg>
+
+</messages>
+

@@ -1,0 +1,18 @@
+[Inputs]
+Clk
+Reset
+Write_Reg
+=R_Addr_A[4:0]=
+=R_Addr_B[4:0]=
+=W_Addr[4:0]=
+=ALU_OP[2:0]=
+[Outputs]
+ZF
+OF
+=R_Data_A[31:0]=
+=R_Data_B[31:0]=
+=W_Data[31:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel ALU_REG
+

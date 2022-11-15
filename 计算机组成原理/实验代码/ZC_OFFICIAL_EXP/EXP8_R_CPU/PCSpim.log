@@ -1,0 +1,428 @@
+Messages
+=========================
+SPIM Version 8.0 of January 8, 2010
+Copyright 1990-2010, James R. Larus.
+All Rights Reserved.
+DOS and Windows ports by David A. Carley.
+Copyright 1997, Morgan Kaufmann Publishers, Inc.
+See the file README for a full copyright notice.
+Loaded: C:\Program Files\PCSpim\exceptions.s
+Memory and registers cleared and the simulator reinitialized.
+
+SPIM Version 8.0 of January 8, 2010
+Copyright 1990-2010, James R. Larus.
+All Rights Reserved.
+DOS and Windows ports by David A. Carley.
+Copyright 1997, Morgan Kaufmann Publishers, Inc.
+See the file README for a full copyright notice.
+Loaded: C:\Program Files\PCSpim\exceptions.s
+D:\FPGAJX\ZC_EXP\EXP8_R_CPU\Test_R_CPU.asm successfully loaded
+Instruction references undefined symbol at 0x00400014
+[0x00400014]        0x0c000000  jal 0x00000000 [main]           ; 188: jal main
+[0x00400024]        0x00000827  nor $1, $0, $0                  ; 2: nor $1, $0,$0;  #$1=FFFF_FFFF
+[0x00400028]        0x0001102b  sltu $2, $0, $1                 ; 3: sltu $2, $0, $1;  #$2=0000_0001
+[0x0040002c]        0x00421820  add $3, $2, $2                  ; 4: add $3, $2, $2;  #$3=0000_0002
+[0x00400030]        0x00622020  add $4, $3, $2                  ; 5: add $4, $3, $2;  #$4=0000_0003
+[0x00400034]        0x00832820  add $5, $4, $3                  ; 6: add $5, $4, $3;  #$5=0000_0005
+[0x00400038]        0x00a33020  add $6, $5, $3                  ; 7: add $6, $5, $3;  #$6=0000_0007
+[0x0040003c]        0x00463804  sllv $7, $6, $2                 ; 8: sllv $7, $6, $2;  #$7=0000_000E
+[0x00400040]        0x00e64004  sllv $8, $6, $7                 ; 9: sllv $8, $6, $7;  #$8=0000_7000
+[0x00400044]        0x00284826  xor $9, $1, $8                  ; 10: xor $9, $1, $8;  #$9=FFFF_8FFF
+[0x00400048]        0x01215020  add $10, $9, $1                 ; 11: add $10, $9, $1;  #$10=FFFF_8FFE
+[0x0040004c]        0x01075822  sub $11, $8, $7                 ; 12: sub $11, $8, $7;  #$11=0000_6FF2
+[0x00400050]        0x00e86022  sub $12, $7, $8                 ; 13: sub  $12, $7, $8;  #$12=FFFF_900E
+[0x00400054]        0x012c6824  and $13, $9, $12                ; 14: and $13, $9, $12;  #$13=FFFF_800E
+[0x00400058]        0x012c7025  or $14, $9, $12                 ; 15: or $14, $9, $12;  #$14=FFFF_9FFF
+[0x0040005c]        0x00c77825  or $15, $6, $7                  ; 16: or $15, $6, $7;  #$15=0000_700E
+[0x00400060]        0x00c78027  nor $16, $6, $7                 ; 17: nor $16, $6, $7;  #$16=FFFF_8FF1
+[0x00400064]        0x00e38820  add $17, $7, $3                 ; 18: add $17, $7, $3;  #$17=0000_0010
+[0x00400068]        0x02289004  sllv $18, $8, $17               ; 19: sllv  $18, $8, $17;  #$18=7000_0000
+[0x0040006c]        0x02239804  sllv $19, $3, $17               ; 20: sllv  $19, $3, $17;  #$19=0002_0000
+[0x00400070]        0x00f3a004  sllv $20, $19, $7               ; 21: sllv $20, $19, $7;  #$20=8000_0000
+[0x00400074]        0x0281a820  add $21, $20, $1                ; 22: add  $21, $20, $1;  #$21=7FFF_FFFF
+Exception occurred at PC=0x00400074
+  Arithmetic overflow
+[0x80000180]        0x0001d821  addu $27, $0, $1                ; 90: move $k1 $at                # Save $at
+[0x80000184]        0x3c019000  lui $1, -28672                  ; 92: sw $v0 s1                # Not re-entrant and we can't trust $sp
+[0x80000188]        0xac220200  sw $2, 512($1)
+Attempt to execute non-instruction at 0x80000250
+Exception occurred at PC=0x00400074
+  Arithmetic overflow
+Attempt to execute non-instruction at 0x80000250
+Exception occurred at PC=0x0040007c
+  Arithmetic overflow
+Attempt to execute non-instruction at 0x80000250
+Exception occurred at PC=0x00400074
+  Arithmetic overflow
+Attempt to execute non-instruction at 0x80000250
+Memory and registers cleared and the simulator reinitialized.
+
+SPIM Version 8.0 of January 8, 2010
+Copyright 1990-2010, James R. Larus.
+All Rights Reserved.
+DOS and Windows ports by David A. Carley.
+Copyright 1997, Morgan Kaufmann Publishers, Inc.
+See the file README for a full copyright notice.
+Loaded: C:\Program Files\PCSpim\exceptions.s
+D:\FPGAJX\ZC_EXP\EXP8_R_CPU\Test_R_CPU.asm successfully loaded
+Instruction references undefined symbol at 0x00400014
+[0x00400014]        0x0c000000  jal 0x00000000 [main]           ; 188: jal main
+[0x00400024]        0x00000827  nor $1, $0, $0                  ; 2: nor $1, $0,$0;  #$1=FFFF_FFFF
+[0x00400028]        0x0001102b  sltu $2, $0, $1                 ; 3: sltu $2, $0, $1;  #$2=0000_0001
+[0x0040002c]        0x00421820  add $3, $2, $2                  ; 4: add $3, $2, $2;  #$3=0000_0002
+[0x00400030]        0x00622020  add $4, $3, $2                  ; 5: add $4, $3, $2;  #$4=0000_0003
+[0x00400034]        0x00832820  add $5, $4, $3                  ; 6: add $5, $4, $3;  #$5=0000_0005
+[0x00400038]        0x00a33020  add $6, $5, $3                  ; 7: add $6, $5, $3;  #$6=0000_0007
+[0x0040003c]        0x00463804  sllv $7, $6, $2                 ; 8: sllv $7, $6, $2;  #$7=0000_000E
+[0x00400040]        0x00e64004  sllv $8, $6, $7                 ; 9: sllv $8, $6, $7;  #$8=0000_7000
+[0x00400044]        0x00284826  xor $9, $1, $8                  ; 10: xor $9, $1, $8;  #$9=FFFF_8FFF
+[0x00400048]        0x01215020  add $10, $9, $1                 ; 11: add $10, $9, $1;  #$10=FFFF_8FFE
+[0x0040004c]        0x01075822  sub $11, $8, $7                 ; 12: sub $11, $8, $7;  #$11=0000_6FF2
+[0x00400050]        0x00e86022  sub $12, $7, $8                 ; 13: sub  $12, $7, $8;  #$12=FFFF_900E
+[0x00400054]        0x012c6824  and $13, $9, $12                ; 14: and $13, $9, $12;  #$13=FFFF_800E
+[0x00400058]        0x012c7025  or $14, $9, $12                 ; 15: or $14, $9, $12;  #$14=FFFF_9FFF
+[0x0040005c]        0x00c77825  or $15, $6, $7                  ; 16: or $15, $6, $7;  #$15=0000_700E
+[0x00400060]        0x00c78027  nor $16, $6, $7                 ; 17: nor $16, $6, $7;  #$16=FFFF_8FF1
+[0x00400064]        0x00e38820  add $17, $7, $3                 ; 18: add $17, $7, $3;  #$17=0000_0010
+[0x00400068]        0x02289004  sllv $18, $8, $17               ; 19: sllv  $18, $8, $17;  #$18=7000_0000
+[0x0040006c]        0x02239804  sllv $19, $3, $17               ; 20: sllv  $19, $3, $17;  #$19=0002_0000
+[0x00400070]        0x00f3a004  sllv $20, $19, $7               ; 21: sllv $20, $19, $7;  #$20=8000_0000
+[0x00400074]        0x0281a820  add $21, $20, $1                ; 22: add  $21, $20, $1;  #$21=7FFF_FFFF
+Exception occurred at PC=0x00400074
+  Arithmetic overflow
+[0x80000180]        0x0001d821  addu $27, $0, $1                ; 90: move $k1 $at                # Save $at
+[0x80000184]        0x3c019000  lui $1, -28672                  ; 92: sw $v0 s1                # Not re-entrant and we can't trust $sp
+[0x80000188]        0xac220200  sw $2, 512($1)
+[0x8000018c]        0x3c019000  lui $1, -28672                  ; 93: sw $a0 s2                # But we need to use these registers
+[0x80000190]        0xac240204  sw $4, 516($1)
+[0x80000194]        0x401a6800  mfc0 $26, $13                   ; 95: mfc0 $k0 $13                # Cause register
+[0x80000198]        0x001a2082  srl $4, $26, 2                  ; 96: srl $a0 $k0 2                # Extract ExcCode Field
+[0x8000019c]        0x3084001f  andi $4, $4, 31                 ; 97: andi $a0 $a0 0x1f
+[0x800001a0]        0x34020004  ori $2, $0, 4                   ; 101: li $v0 4                # syscall 4 (print_str)
+[0x800001a4]        0x3c049000  lui $4, -28672 [__m1_]          ; 102: la $a0 __m1_
+[0x800001a8]        0x0000000c  syscall                         ; 103: syscall
+Attempt to execute non-instruction at 0x80000250
+Exception occurred at PC=0x0040007c
+  Arithmetic overflow
+Attempt to execute non-instruction at 0x80000250
+Memory and registers cleared and the simulator reinitialized.
+
+SPIM Version 8.0 of January 8, 2010
+Copyright 1990-2010, James R. Larus.
+All Rights Reserved.
+DOS and Windows ports by David A. Carley.
+Copyright 1997, Morgan Kaufmann Publishers, Inc.
+See the file README for a full copyright notice.
+D:\FPGAJX\ZC_EXP\EXP8_R_CPU\Test_R_CPU.asm successfully loaded
+Exception occurred at PC=0x00400050
+  Arithmetic overflow
+Attempt to execute non-instruction at 0x80000180
+[0x00400000]        0x00000827  nor $1, $0, $0                  ; 2: nor $1, $0,$0;  #$1=FFFF_FFFF
+[0x00400004]        0x0001102b  sltu $2, $0, $1                 ; 3: sltu $2, $0, $1;  #$2=0000_0001
+[0x00400008]        0x00421820  add $3, $2, $2                  ; 4: add $3, $2, $2;  #$3=0000_0002
+[0x0040000c]        0x00622020  add $4, $3, $2                  ; 5: add $4, $3, $2;  #$4=0000_0003
+[0x00400010]        0x00832820  add $5, $4, $3                  ; 6: add $5, $4, $3;  #$5=0000_0005
+[0x00400014]        0x00a33020  add $6, $5, $3                  ; 7: add $6, $5, $3;  #$6=0000_0007
+[0x00400018]        0x00463804  sllv $7, $6, $2                 ; 8: sllv $7, $6, $2;  #$7=0000_000E
+[0x0040001c]        0x00e64004  sllv $8, $6, $7                 ; 9: sllv $8, $6, $7;  #$8=0000_7000
+[0x00400020]        0x00284826  xor $9, $1, $8                  ; 10: xor $9, $1, $8;  #$9=FFFF_8FFF
+[0x00400024]        0x01215020  add $10, $9, $1                 ; 11: add $10, $9, $1;  #$10=FFFF_8FFE
+[0x00400028]        0x01075822  sub $11, $8, $7                 ; 12: sub $11, $8, $7;  #$11=0000_6FF2
+[0x0040002c]        0x00e86022  sub $12, $7, $8                 ; 13: sub  $12, $7, $8;  #$12=FFFF_900E
+[0x00400030]        0x012c6824  and $13, $9, $12                ; 14: and $13, $9, $12;  #$13=FFFF_800E
+[0x00400034]        0x012c7025  or $14, $9, $12                 ; 15: or $14, $9, $12;  #$14=FFFF_9FFF
+[0x00400038]        0x00c77825  or $15, $6, $7                  ; 16: or $15, $6, $7;  #$15=0000_700E
+[0x0040003c]        0x00c78027  nor $16, $6, $7                 ; 17: nor $16, $6, $7;  #$16=FFFF_8FF1
+[0x00400040]        0x00e38820  add $17, $7, $3                 ; 18: add $17, $7, $3;  #$17=0000_0010
+[0x00400044]        0x02289004  sllv $18, $8, $17               ; 19: sllv  $18, $8, $17;  #$18=7000_0000
+[0x00400048]        0x02239804  sllv $19, $3, $17               ; 20: sllv  $19, $3, $17;  #$19=0002_0000
+[0x0040004c]        0x00f3a004  sllv $20, $19, $7               ; 21: sllv $20, $19, $7;  #$20=8000_0000
+[0x00400050]        0x0281a820  add $21, $20, $1                ; 22: add  $21, $20, $1;  #$21=7FFF_FFFF
+Exception occurred at PC=0x00400050
+  Arithmetic overflow
+Attempt to execute non-instruction at 0x80000180
+[0x00400050]        0x0281a820  add $21, $20, $1                ; 22: add  $21, $20, $1;  #$21=7FFF_FFFF
+Exception occurred at PC=0x00400050
+  Arithmetic overflow
+Attempt to execute non-instruction at 0x80000180
+Memory and registers cleared and the simulator reinitialized.
+
+SPIM Version 8.0 of January 8, 2010
+Copyright 1990-2010, James R. Larus.
+All Rights Reserved.
+DOS and Windows ports by David A. Carley.
+Copyright 1997, Morgan Kaufmann Publishers, Inc.
+See the file README for a full copyright notice.
+D:\FPGAJX\ZC_EXP\EXP8_R_CPU\Test_R_CPU.asm successfully loaded
+[0x00400000]        0x00000827  nor $1, $0, $0                  ; 2: nor $1, $0,$0;  #$1=FFFF_FFFF
+[0x00400004]        0x0001102b  sltu $2, $0, $1                 ; 3: sltu $2, $0, $1;  #$2=0000_0001
+[0x00400008]        0x00421820  add $3, $2, $2                  ; 4: add $3, $2, $2;  #$3=0000_0002
+[0x0040000c]        0x00622020  add $4, $3, $2                  ; 5: add $4, $3, $2;  #$4=0000_0003
+[0x00400010]        0x00832820  add $5, $4, $3                  ; 6: add $5, $4, $3;  #$5=0000_0005
+[0x00400014]        0x00a33020  add $6, $5, $3                  ; 7: add $6, $5, $3;  #$6=0000_0007
+[0x00400018]        0x00463804  sllv $7, $6, $2                 ; 8: sllv $7, $6, $2;  #$7=0000_000E
+[0x0040001c]        0x00e64004  sllv $8, $6, $7                 ; 9: sllv $8, $6, $7;  #$8=0000_7000
+[0x00400020]        0x00284826  xor $9, $1, $8                  ; 10: xor $9, $1, $8;  #$9=FFFF_8FFF
+[0x00400024]        0x01215020  add $10, $9, $1                 ; 11: add $10, $9, $1;  #$10=FFFF_8FFE
+[0x00400028]        0x01075822  sub $11, $8, $7                 ; 12: sub $11, $8, $7;  #$11=0000_6FF2
+[0x0040002c]        0x00e86022  sub $12, $7, $8                 ; 13: sub  $12, $7, $8;  #$12=FFFF_900E
+[0x00400030]        0x012c6824  and $13, $9, $12                ; 14: and $13, $9, $12;  #$13=FFFF_800E
+[0x00400034]        0x012c7025  or $14, $9, $12                 ; 15: or $14, $9, $12;  #$14=FFFF_9FFF
+[0x00400038]        0x00c77825  or $15, $6, $7                  ; 16: or $15, $6, $7;  #$15=0000_700E
+[0x0040003c]        0x00c78027  nor $16, $6, $7                 ; 17: nor $16, $6, $7;  #$16=FFFF_8FF1
+[0x00400040]        0x00e38820  add $17, $7, $3                 ; 18: add $17, $7, $3;  #$17=0000_0010
+[0x00400044]        0x02289004  sllv $18, $8, $17               ; 19: sllv  $18, $8, $17;  #$18=7000_0000
+[0x00400048]        0x02239804  sllv $19, $3, $17               ; 20: sllv  $19, $3, $17;  #$19=0002_0000
+[0x0040004c]        0x00f3a004  sllv $20, $19, $7               ; 21: sllv $20, $19, $7;  #$20=8000_0000
+[0x00400050]        0x0281a820  add $21, $20, $1                ; 22: add  $21, $20, $1;  #$21=7FFF_FFFF
+Exception occurred at PC=0x00400050
+  Arithmetic overflow
+Attempt to execute non-instruction at 0x80000180
+[0x00400054]        0x0241b025  or $22, $18, $1                 ; 23: or $22, $18, $1;  #$22=7FFF_FFFF
+[0x00400058]        0x0296b820  add $23, $20, $22               ; 24: add  $23, $20, $22;  #$23=FFFF_FFFF
+Exception occurred at PC=0x00400050
+  Arithmetic overflow
+Exception occurred at PC=0x00400050
+  Arithmetic overflow
+Attempt to execute non-instruction at 0x80000180
+Can't expand stack segment by 16777216 bytes to 16842752 bytes
+Use -lstack # with # > 16842752
+Memory and registers cleared and the simulator reinitialized.
+
+SPIM Version 8.0 of January 8, 2010
+Copyright 1990-2010, James R. Larus.
+All Rights Reserved.
+DOS and Windows ports by David A. Carley.
+Copyright 1997, Morgan Kaufmann Publishers, Inc.
+See the file README for a full copyright notice.
+D:\FPGAJX\ZC_EXP\EXP8_R_CPU\Test_R_CPU.asm successfully loaded
+[0x00400000]        0x00000827  nor $1, $0, $0                  ; 2: nor $1, $0,$0;  #$1=FFFF_FFFF
+[0x00400004]        0x0001102b  sltu $2, $0, $1                 ; 3: sltu $2, $0, $1;  #$2=0000_0001
+[0x00400008]        0x00421820  add $3, $2, $2                  ; 4: add $3, $2, $2;  #$3=0000_0002
+[0x0040000c]        0x00622020  add $4, $3, $2                  ; 5: add $4, $3, $2;  #$4=0000_0003
+[0x00400010]        0x00832820  add $5, $4, $3                  ; 6: add $5, $4, $3;  #$5=0000_0005
+[0x00400014]        0x00a33020  add $6, $5, $3                  ; 7: add $6, $5, $3;  #$6=0000_0007
+[0x00400018]        0x00463804  sllv $7, $6, $2                 ; 8: sllv $7, $6, $2;  #$7=0000_000E
+[0x0040001c]        0x00e64004  sllv $8, $6, $7                 ; 9: sllv $8, $6, $7;  #$8=0000_7000
+[0x00400020]        0x00284826  xor $9, $1, $8                  ; 10: xor $9, $1, $8;  #$9=FFFF_8FFF
+[0x00400024]        0x01215020  add $10, $9, $1                 ; 11: add $10, $9, $1;  #$10=FFFF_8FFE
+[0x00400028]        0x01075822  sub $11, $8, $7                 ; 12: sub $11, $8, $7;  #$11=0000_6FF2
+[0x0040002c]        0x00e86022  sub $12, $7, $8                 ; 13: sub  $12, $7, $8;  #$12=FFFF_900E
+[0x00400030]        0x012c6824  and $13, $9, $12                ; 14: and $13, $9, $12;  #$13=FFFF_800E
+[0x00400034]        0x012c7025  or $14, $9, $12                 ; 15: or $14, $9, $12;  #$14=FFFF_9FFF
+[0x00400038]        0x00c77825  or $15, $6, $7                  ; 16: or $15, $6, $7;  #$15=0000_700E
+[0x0040003c]        0x00c78027  nor $16, $6, $7                 ; 17: nor $16, $6, $7;  #$16=FFFF_8FF1
+[0x00400040]        0x00e38820  add $17, $7, $3                 ; 18: add $17, $7, $3;  #$17=0000_0010
+[0x00400044]        0x02289004  sllv $18, $8, $17               ; 19: sllv  $18, $8, $17;  #$18=7000_0000
+[0x00400048]        0x02239804  sllv $19, $3, $17               ; 20: sllv  $19, $3, $17;  #$19=0002_0000
+[0x0040004c]        0x00f3a004  sllv $20, $19, $7               ; 21: sllv $20, $19, $7;  #$20=8000_0000
+[0x00400050]        0x0281a820  add $21, $20, $1                ; 22: add  $21, $20, $1;  #$21=7FFF_FFFF
+Exception occurred at PC=0x00400050
+  Arithmetic overflow
+Attempt to execute non-instruction at 0x80000180
+Memory and registers cleared and the simulator reinitialized.
+
+SPIM Version 8.0 of January 8, 2010
+Copyright 1990-2010, James R. Larus.
+All Rights Reserved.
+DOS and Windows ports by David A. Carley.
+Copyright 1997, Morgan Kaufmann Publishers, Inc.
+See the file README for a full copyright notice.
+D:\FPGAJX\ZC_EXP\EXP8_R_CPU\Test_R_CPU.asm successfully loaded
+[0x00400000]        0x00000827  nor $1, $0, $0                  ; 2: nor $1, $0,$0;  #$1=FFFF_FFFF
+[0x00400004]        0x0001102b  sltu $2, $0, $1                 ; 3: sltu $2, $0, $1;  #$2=0000_0001
+[0x00400008]        0x00421820  add $3, $2, $2                  ; 4: add $3, $2, $2;  #$3=0000_0002
+[0x0040000c]        0x00622020  add $4, $3, $2                  ; 5: add $4, $3, $2;  #$4=0000_0003
+[0x00400010]        0x00832820  add $5, $4, $3                  ; 6: add $5, $4, $3;  #$5=0000_0005
+[0x00400014]        0x00a33020  add $6, $5, $3                  ; 7: add $6, $5, $3;  #$6=0000_0007
+[0x00400018]        0x00463804  sllv $7, $6, $2                 ; 8: sllv $7, $6, $2;  #$7=0000_000E
+[0x0040001c]        0x00a64820  add $9, $5, $6                  ; 9: add $9, $5, $6;  #$9=0000_000C
+[0x00400020]        0x01264004  sllv $8, $6, $9                 ; 10: sllv $8, $6, $9;  #$8=0000_7000
+[0x00400024]        0x00284826  xor $9, $1, $8                  ; 11: xor $9, $1, $8;  #$9=FFFF_8FFF
+[0x00400028]        0x01215020  add $10, $9, $1                 ; 12: add $10, $9, $1;  #$10=FFFF_8FFE
+[0x0040002c]        0x01075822  sub $11, $8, $7                 ; 13: sub $11, $8, $7;  #$11=0000_6FF2
+[0x00400030]        0x00e86022  sub $12, $7, $8                 ; 14: sub  $12, $7, $8;  #$12=FFFF_900E
+[0x00400034]        0x012c6824  and $13, $9, $12                ; 15: and $13, $9, $12;  #$13=FFFF_800E
+[0x00400038]        0x012c7025  or $14, $9, $12                 ; 16: or $14, $9, $12;  #$14=FFFF_9FFF
+[0x0040003c]        0x00c77825  or $15, $6, $7                  ; 17: or $15, $6, $7;  #$15=0000_700E
+[0x00400040]        0x00c78027  nor $16, $6, $7                 ; 18: nor $16, $6, $7;  #$16=FFFF_8FF1
+[0x00400044]        0x00e38820  add $17, $7, $3                 ; 19: add $17, $7, $3;  #$17=0000_0010
+[0x00400048]        0x02289004  sllv $18, $8, $17               ; 20: sllv  $18, $8, $17;  #$18=7000_0000
+[0x0040004c]        0x02239804  sllv $19, $3, $17               ; 21: sllv  $19, $3, $17;  #$19=0002_0000
+[0x00400050]        0x00f3a004  sllv $20, $19, $7               ; 22: sllv $20, $19, $7;  #$20=8000_0000
+[0x00400054]        0x0281a820  add $21, $20, $1                ; 23: add  $21, $20, $1;  #$21=7FFF_FFFF
+Exception occurred at PC=0x00400054
+  Arithmetic overflow
+Exception occurred at PC=0x00400054
+  Arithmetic overflow
+Attempt to execute non-instruction at 0x80000180
+[0x00400000]        0x00000827  nor $1, $0, $0                  ; 2: nor $1, $0,$0;  #$1=FFFF_FFFF
+[0x00400004]        0x0001102b  sltu $2, $0, $1                 ; 3: sltu $2, $0, $1;  #$2=0000_0001
+[0x00400008]        0x00421820  add $3, $2, $2                  ; 4: add $3, $2, $2;  #$3=0000_0002
+[0x0040000c]        0x00622020  add $4, $3, $2                  ; 5: add $4, $3, $2;  #$4=0000_0003
+[0x00400010]        0x00832820  add $5, $4, $3                  ; 6: add $5, $4, $3;  #$5=0000_0005
+[0x00400014]        0x00a33020  add $6, $5, $3                  ; 7: add $6, $5, $3;  #$6=0000_0007
+[0x00400018]        0x00463804  sllv $7, $6, $2                 ; 8: sllv $7, $6, $2;  #$7=0000_000E
+[0x0040001c]        0x00a64820  add $9, $5, $6                  ; 9: add $9, $5, $6;  #$9=0000_000C
+[0x00400020]        0x01264004  sllv $8, $6, $9                 ; 10: sllv $8, $6, $9;  #$8=0000_7000
+[0x00400024]        0x00284826  xor $9, $1, $8                  ; 11: xor $9, $1, $8;  #$9=FFFF_8FFF
+[0x00400028]        0x01215020  add $10, $9, $1                 ; 12: add $10, $9, $1;  #$10=FFFF_8FFE
+[0x0040002c]        0x01075822  sub $11, $8, $7                 ; 13: sub $11, $8, $7;  #$11=0000_6FF2
+[0x00400030]        0x00e86022  sub $12, $7, $8                 ; 14: sub  $12, $7, $8;  #$12=FFFF_900E
+[0x00400034]        0x012c6824  and $13, $9, $12                ; 15: and $13, $9, $12;  #$13=FFFF_800E
+[0x00400038]        0x012c7025  or $14, $9, $12                 ; 16: or $14, $9, $12;  #$14=FFFF_9FFF
+[0x0040003c]        0x00c77825  or $15, $6, $7                  ; 17: or $15, $6, $7;  #$15=0000_700E
+[0x00400040]        0x00c78027  nor $16, $6, $7                 ; 18: nor $16, $6, $7;  #$16=FFFF_8FF1
+[0x00400044]        0x00e38820  add $17, $7, $3                 ; 19: add $17, $7, $3;  #$17=0000_0010
+[0x00400048]        0x02289004  sllv $18, $8, $17               ; 20: sllv  $18, $8, $17;  #$18=7000_0000
+[0x0040004c]        0x02239804  sllv $19, $3, $17               ; 21: sllv  $19, $3, $17;  #$19=0002_0000
+[0x00400050]        0x00f3a004  sllv $20, $19, $7               ; 22: sllv $20, $19, $7;  #$20=8000_0000
+[0x00400054]        0x0281a820  add $21, $20, $1                ; 23: add  $21, $20, $1;  #$21=7FFF_FFFF
+Exception occurred at PC=0x00400054
+  Arithmetic overflow
+Exception occurred at PC=0x00400054
+  Arithmetic overflow
+Attempt to execute non-instruction at 0x80000180
+[0x00400058]        0x0241b025  or $22, $18, $1                 ; 24: or $22, $18, $1;  #$22=7FFF_FFFF
+[0x0040005c]        0x0296b820  add $23, $20, $22               ; 25: add  $23, $20, $22;  #$23=FFFF_FFFF
+Exception occurred at PC=0x00400054
+  Arithmetic overflow
+Memory and registers cleared and the simulator reinitialized.
+
+SPIM Version 8.0 of January 8, 2010
+Copyright 1990-2010, James R. Larus.
+All Rights Reserved.
+DOS and Windows ports by David A. Carley.
+Copyright 1997, Morgan Kaufmann Publishers, Inc.
+See the file README for a full copyright notice.
+D:\FPGAJX\ZC_EXP\EXP8_R_CPU\Test_R_CPU.asm successfully loaded
+Exception occurred at PC=0x00400054
+  Arithmetic overflow
+Attempt to execute non-instruction at 0x80000180
+[0x00400000]        0x00000827  nor $1, $0, $0                  ; 2: nor $1, $0,$0;  #$1=FFFF_FFFF
+[0x00400004]        0x0001102b  sltu $2, $0, $1                 ; 3: sltu $2, $0, $1;  #$2=0000_0001
+[0x00400008]        0x00421820  add $3, $2, $2                  ; 4: add $3, $2, $2;  #$3=0000_0002
+[0x0040000c]        0x00622020  add $4, $3, $2                  ; 5: add $4, $3, $2;  #$4=0000_0003
+[0x00400010]        0x00832820  add $5, $4, $3                  ; 6: add $5, $4, $3;  #$5=0000_0005
+[0x00400014]        0x00a33020  add $6, $5, $3                  ; 7: add $6, $5, $3;  #$6=0000_0007
+[0x00400018]        0x00463804  sllv $7, $6, $2                 ; 8: sllv $7, $6, $2;  #$7=0000_000E
+[0x0040001c]        0x00a64820  add $9, $5, $6                  ; 9: add $9, $5, $6;  #$9=0000_000C
+[0x00400020]        0x01264004  sllv $8, $6, $9                 ; 10: sllv $8, $6, $9;  #$8=0000_7000
+[0x00400024]        0x00284826  xor $9, $1, $8                  ; 11: xor $9, $1, $8;  #$9=FFFF_8FFF
+[0x00400028]        0x01215020  add $10, $9, $1                 ; 12: add $10, $9, $1;  #$10=FFFF_8FFE
+[0x0040002c]        0x01075822  sub $11, $8, $7                 ; 13: sub $11, $8, $7;  #$11=0000_6FF2
+[0x00400030]        0x00e86022  sub $12, $7, $8                 ; 14: sub  $12, $7, $8;  #$12=FFFF_900E
+[0x00400034]        0x012c6824  and $13, $9, $12                ; 15: and $13, $9, $12;  #$13=FFFF_800E
+[0x00400038]        0x012c7025  or $14, $9, $12                 ; 16: or $14, $9, $12;  #$14=FFFF_9FFF
+[0x0040003c]        0x00c77825  or $15, $6, $7                  ; 17: or $15, $6, $7;  #$15=0000_000F
+[0x00400040]        0x00c78027  nor $16, $6, $7                 ; 18: nor $16, $6, $7;  #$16=FFFF_FFF0
+[0x00400044]        0x00e38820  add $17, $7, $3                 ; 19: add $17, $7, $3;  #$17=0000_0010
+[0x00400048]        0x02289004  sllv $18, $8, $17               ; 20: sllv  $18, $8, $17;  #$18=7000_0000
+[0x0040004c]        0x02239804  sllv $19, $3, $17               ; 21: sllv  $19, $3, $17;  #$19=0002_0000
+[0x00400050]        0x00f3a004  sllv $20, $19, $7               ; 22: sllv $20, $19, $7;  #$20=8000_0000
+[0x00400054]        0x0281a820  add $21, $20, $1                ; 23: add  $21, $20, $1;  #$21=7FFF_FFFF
+Exception occurred at PC=0x00400054
+  Arithmetic overflow
+Exception occurred at PC=0x00400054
+  Arithmetic overflow
+Attempt to execute non-instruction at 0x80000180
+[0x00400058]        0x0255b025  or $22, $18, $21                ; 24: or $22, $18, $21;  #$22=7FFF_FFFF
+[0x0040005c]        0x0296b820  add $23, $20, $22               ; 25: add  $23, $20, $22;  #$23=FFFF_FFFF
+[0x00400060]        0x0296c022  sub $24, $20, $22               ; 26: sub $24, $20, $22;  #$24=0000_0001
+Exception occurred at PC=0x00400054
+  Arithmetic overflow
+Exception occurred at PC=0x00400054
+  Arithmetic overflow
+Attempt to execute non-instruction at 0x80000180
+[0x00400064]        0x02d4c822  sub $25, $22, $20               ; 27: sub $25, $22, $20;  #$25=FFFF_FFFF
+Exception occurred at PC=0x00400054
+  Arithmetic overflow
+Attempt to execute non-instruction at 0x80000180
+
+
+Registers
+=========================
+ PC      = 00000000   EPC     = 00400054   Cause   = 00000030   BadVAddr= 00000000
+ Status  = 3000ff12   HI      = 00000000   LO      = 00000000
+                                 General Registers
+R0  (r0) = 00000000  R8  (t0) = 00007000  R16 (s0) = fffffff0  R24 (t8) = 00000001
+R1  (at) = ffffffff  R9  (t1) = ffff8fff  R17 (s1) = 00000010  R25 (t9) = 00000000
+R2  (v0) = 00000001  R10 (t2) = ffff8ffe  R18 (s2) = 70000000  R26 (k0) = 00000000
+R3  (v1) = 00000002  R11 (t3) = 00006ff2  R19 (s3) = 00020000  R27 (k1) = 00000000
+R4  (a0) = 00000000  R12 (t4) = ffff900e  R20 (s4) = 80000000  R28 (gp) = 00000000
+R5  (a1) = 00000005  R13 (t5) = ffff800e  R21 (s5) = 7fffffff  R29 (sp) = 7ffff878
+R6  (a2) = 7ffff880  R14 (t6) = ffff9fff  R22 (s6) = 7fffffff  R30 (s8) = 00000000
+R7  (a3) = 0000000e  R15 (t7) = 0000000f  R23 (s7) = ffffffff  R31 (ra) = 00000000
+
+ FIR    = 00009800    FCSR    = 00000000    FCCR   = 00000000   FEXR    = 00000000
+ FENR   = 00000000
+                              Double Floating Point Registers
+FP0  = 0.000000      FP8  = 0.000000      FP16 = 0.000000      FP24 = 0.000000     
+FP2  = 0.000000      FP10 = 0.000000      FP18 = 0.000000      FP26 = 0.000000     
+FP4  = 0.000000      FP12 = 0.000000      FP20 = 0.000000      FP28 = 0.000000     
+FP6  = 0.000000      FP14 = 0.000000      FP22 = 0.000000      FP30 = 0.000000     
+                              Single Floating Point Registers
+FP0  = 0.000000      FP8  = 0.000000      FP16 = 0.000000      FP24 = 0.000000     
+FP1  = 0.000000      FP9  = 0.000000      FP17 = 0.000000      FP25 = 0.000000     
+FP2  = 0.000000      FP10 = 0.000000      FP18 = 0.000000      FP26 = 0.000000     
+FP3  = 0.000000      FP11 = 0.000000      FP19 = 0.000000      FP27 = 0.000000     
+FP4  = 0.000000      FP12 = 0.000000      FP20 = 0.000000      FP28 = 0.000000     
+FP5  = 0.000000      FP13 = 0.000000      FP21 = 0.000000      FP29 = 0.000000     
+FP6  = 0.000000      FP14 = 0.000000      FP22 = 0.000000      FP30 = 0.000000     
+FP7  = 0.000000      FP15 = 0.000000      FP23 = 0.000000      FP31 = 0.000000     
+
+
+Console
+=========================
+
+
+Text Segment
+=========================
+[0x00400000]        0x00000827  nor $1, $0, $0                  ; 2: nor $1, $0,$0;  #$1=FFFF_FFFF
+[0x00400004]        0x0001102b  sltu $2, $0, $1                 ; 3: sltu $2, $0, $1;  #$2=0000_0001
+[0x00400008]        0x00421820  add $3, $2, $2                  ; 4: add $3, $2, $2;  #$3=0000_0002
+[0x0040000c]        0x00622020  add $4, $3, $2                  ; 5: add $4, $3, $2;  #$4=0000_0003
+[0x00400010]        0x00832820  add $5, $4, $3                  ; 6: add $5, $4, $3;  #$5=0000_0005
+[0x00400014]        0x00a33020  add $6, $5, $3                  ; 7: add $6, $5, $3;  #$6=0000_0007
+[0x00400018]        0x00463804  sllv $7, $6, $2                 ; 8: sllv $7, $6, $2;  #$7=0000_000E
+[0x0040001c]        0x00a64820  add $9, $5, $6                  ; 9: add $9, $5, $6;  #$9=0000_000C
+[0x00400020]        0x01264004  sllv $8, $6, $9                 ; 10: sllv $8, $6, $9;  #$8=0000_7000
+[0x00400024]        0x00284826  xor $9, $1, $8                  ; 11: xor $9, $1, $8;  #$9=FFFF_8FFF
+[0x00400028]        0x01215020  add $10, $9, $1                 ; 12: add $10, $9, $1;  #$10=FFFF_8FFE
+[0x0040002c]        0x01075822  sub $11, $8, $7                 ; 13: sub $11, $8, $7;  #$11=0000_6FF2
+[0x00400030]        0x00e86022  sub $12, $7, $8                 ; 14: sub  $12, $7, $8;  #$12=FFFF_900E
+[0x00400034]        0x012c6824  and $13, $9, $12                ; 15: and $13, $9, $12;  #$13=FFFF_800E
+[0x00400038]        0x012c7025  or $14, $9, $12                 ; 16: or $14, $9, $12;  #$14=FFFF_9FFF
+[0x0040003c]        0x00c77825  or $15, $6, $7                  ; 17: or $15, $6, $7;  #$15=0000_000F
+[0x00400040]        0x00c78027  nor $16, $6, $7                 ; 18: nor $16, $6, $7;  #$16=FFFF_FFF0
+[0x00400044]        0x00e38820  add $17, $7, $3                 ; 19: add $17, $7, $3;  #$17=0000_0010
+[0x00400048]        0x02289004  sllv $18, $8, $17               ; 20: sllv  $18, $8, $17;  #$18=7000_0000
+[0x0040004c]        0x02239804  sllv $19, $3, $17               ; 21: sllv  $19, $3, $17;  #$19=0002_0000
+[0x00400050]        0x00f3a004  sllv $20, $19, $7               ; 22: sllv $20, $19, $7;  #$20=8000_0000
+[0x00400054]        0x0281a820  add $21, $20, $1                ; 23: add  $21, $20, $1;  #$21=7FFF_FFFF
+[0x00400058]        0x0255b025  or $22, $18, $21                ; 24: or $22, $18, $21;  #$22=7FFF_FFFF
+[0x0040005c]        0x0296b820  add $23, $20, $22               ; 25: add  $23, $20, $22;  #$23=FFFF_FFFF
+[0x00400060]        0x0296c022  sub $24, $20, $22               ; 26: sub $24, $20, $22;  #$24=0000_0001
+[0x00400064]        0x02d4c822  sub $25, $22, $20               ; 27: sub $25, $22, $20;  #$25=FFFF_FFFF
+[0x00400068]        0x0241d026  xor $26, $18, $1                ; 28: xor $26, $18, $1;  #$26=8FFF_FFFF
+[0x0040006c]        0x02d4d82b  sltu $27, $22, $20              ; 29: sltu $27, $22, $20;  #$27=0000_0001
+[0x00400070]        0x0354e02b  sltu $28, $26, $20              ; 30: sltu $28, $26, $20;  #$28=0000_0000
+[0x00400074]        0x02c2e820  add $29, $22, $2                ; 31: add $29, $22, $2;  #$29=8000_0000
+[0x00400078]        0x0282f022  sub $30, $20, $2                ; 32: sub $30, $20, $2;  #$30=7FFF_FFFF
+[0x0040007c]        0x017af820  add $31, $11, $26               ; 33: add $31, $11, $26;  #$30=9000_6FF1
+
+        KERNEL
+
+
+Data Segment
+=========================
+        DATA
+[0x10000000]...[0x10040000]        0x00000000
+
+        STACK
+[0x7ffff878]                        0x00000000  0x00000000
+
+        KERNEL DATA
+[0x90000000]...[0x90010000]        0x00000000
+
+

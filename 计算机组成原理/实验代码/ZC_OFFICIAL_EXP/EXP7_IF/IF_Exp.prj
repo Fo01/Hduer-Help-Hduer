@@ -1,0 +1,3 @@
+verilog work "ipcore_dir/ROM_B.v"
+verilog work "IF.v"
+verilog work "IF_Exp.v"

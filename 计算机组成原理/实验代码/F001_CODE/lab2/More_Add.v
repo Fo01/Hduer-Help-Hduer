@@ -1,0 +1,53 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: 
+// 
+// Create Date:    00:16:06 11/27/2020 
+// Design Name: 
+// Module Name:    More_Add 
+// Project Name: 
+// Target Devices: 
+// Tool versions: 
+// Description: 
+//
+// Dependencies: 
+//
+// Revision: 
+// Revision 0.01 - File Created
+// Additional Comments: 
+//
+//////////////////////////////////////////////////////////////////////////////////
+module More_Add(a,b,f,cin,cout
+    );
+    input [3:0] a,b;
+    input cin;
+    output [3:0] f;
+    output cout;
+    wire c1,c2,c3;
+    wire [3:0] g,p;
+//0
+    assign g[0]= a[0]& b[0];
+    assign p[0]= a[0]| b[0];
+    assign f[0]= g[0]^p[0]^cin;
+    assign c1=g[0]|(p[0]&cin);
+
+//1
+    assign g[1]= a[1]& b[1];
+    assign p[1]= a[1]| b[1];
+    assign f[1]= g[1]^p[1]^c1;
+    assign c2=g[1]|(p[1]&c1);
+
+//2
+    assign g[2]= a[2]& b[2];
+    assign p[2]= a[2]| b[2];
+    assign f[2]= g[2]^p[2]^c2;
+    assign c3=g[2]|(p[2]&c2);
+
+//3
+    assign g[3]= a[3]& b[3];
+    assign p[3]= a[3]| b[3];
+    assign f[3]= g[3]^p[3]^c3;
+    assign cout=g[3]|(p[3]&c3);
+
+endmodule

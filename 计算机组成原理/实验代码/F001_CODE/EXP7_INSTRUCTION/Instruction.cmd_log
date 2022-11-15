@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "E:/Computer Orgnization/EXP5_MEM/EXP7_INSTRUCTION/Instruction.xst" -ofn "E:/Computer Orgnization/EXP5_MEM/EXP7_INSTRUCTION/Instruction.syr" 
+xst -intstyle ise -ifn "E:/Computer Orgnization/EXP5_MEM/EXP7_INSTRUCTION/Instruction.xst" -ofn "E:/Computer Orgnization/EXP5_MEM/EXP7_INSTRUCTION/Instruction.syr" 
+xst -intstyle ise -ifn "E:/Computer Orgnization/EXP5_MEM/EXP7_INSTRUCTION/Instruction.xst" -ofn "E:/Computer Orgnization/EXP5_MEM/EXP7_INSTRUCTION/Instruction.syr" 
+xst -intstyle ise -ifn "E:/Computer Orgnization/EXP5_MEM/EXP7_INSTRUCTION/Instruction.xst" -ofn "E:/Computer Orgnization/EXP5_MEM/EXP7_INSTRUCTION/Instruction.syr" 
+xst -intstyle ise -ifn "E:/Computer Orgnization/EXP7_INSTRUCTION/Instruction.xst" -ofn "E:/Computer Orgnization/EXP7_INSTRUCTION/Instruction.syr" 
+xst -intstyle ise -ifn "E:/Computer Orgnization/EXP7_INSTRUCTION/Instruction.xst" -ofn "E:/Computer Orgnization/EXP7_INSTRUCTION/Instruction.syr" 

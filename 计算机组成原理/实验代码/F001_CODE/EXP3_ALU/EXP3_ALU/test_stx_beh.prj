@@ -1,0 +1,4 @@
+verilog isim_temp "ALU_8F.v"
+verilog isim_temp "ALU_8F_EXP.v"
+verilog isim_temp "test.v"
+verilog isim_temp "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

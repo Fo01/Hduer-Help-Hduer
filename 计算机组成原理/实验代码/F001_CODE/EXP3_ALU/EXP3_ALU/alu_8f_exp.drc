@@ -1,0 +1,8 @@
+Release 13.4 Drc O.87xd (nt)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+Sun Mar 02 10:24:28 2014
+
+drc -z ALU_8F_EXP.ncd ALU_8F_EXP.pcf
+
+DRC detected 0 errors and 0 warnings.
