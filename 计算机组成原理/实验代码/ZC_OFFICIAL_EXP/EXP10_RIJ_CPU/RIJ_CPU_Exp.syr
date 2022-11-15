@@ -1,0 +1,648 @@
+Release 13.4 - xst O.87xd (nt)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.16 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.16 secs
+ 
+--> Reading design: RIJ_CPU_Exp.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "RIJ_CPU_Exp.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "RIJ_CPU_Exp"
+Output Format                      : NGC
+Target Device                      : xc6slx16-3-csg324
+
+---- Source Options
+Top Module Name                    : RIJ_CPU_Exp
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+Cores Search Directories           : {"ipcore_dir"  }
+
+=========================================================================
+
+INFO:Xst - Part-select index evaluated to out of bound value may lead to incorrect synthesis results; it is recommended not to use them in RTL
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "D:\FPGAJX\ZC_EXP\EXP10_RIJ_CPU\ipcore_dir\ROM_B.v" into library work
+Parsing module <ROM_B>.
+Analyzing Verilog file "D:\FPGAJX\ZC_EXP\EXP10_RIJ_CPU\REGS.v" into library work
+Parsing module <REGS>.
+Analyzing Verilog file "D:\FPGAJX\ZC_EXP\EXP10_RIJ_CPU\ipcore_dir\RAM_B.v" into library work
+Parsing module <RAM_B>.
+Analyzing Verilog file "D:\FPGAJX\ZC_EXP\EXP10_RIJ_CPU\IF.v" into library work
+Parsing module <IF_M>.
+Analyzing Verilog file "D:\FPGAJX\ZC_EXP\EXP10_RIJ_CPU\ALU.v" into library work
+Parsing module <ALU>.
+Analyzing Verilog file "D:\FPGAJX\ZC_EXP\EXP10_RIJ_CPU\RIJ_CPU.v" into library work
+Parsing module <RIJ_CPU>.
+Analyzing Verilog file "D:\FPGAJX\ZC_EXP\EXP10_RIJ_CPU\BTN_OK.v" into library work
+Parsing module <BTN_OK>.
+Analyzing Verilog file "D:\FPGAJX\ZC_EXP\EXP10_RIJ_CPU\RIJ_CPU_Exp.v" into library work
+Parsing module <RIJ_CPU_Exp>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <RIJ_CPU_Exp>.
+
+Elaborating module <BTN_OK>.
+
+Elaborating module <RIJ_CPU>.
+
+Elaborating module <IF_M>.
+
+Elaborating module <ROM_B>.
+WARNING:HDLCompiler:1499 - "D:\FPGAJX\ZC_EXP\EXP10_RIJ_CPU\ipcore_dir\ROM_B.v" Line 39: Empty module <ROM_B> remains a black box.
+
+Elaborating module <REGS>.
+
+Elaborating module <ALU>.
+
+Elaborating module <RAM_B>.
+WARNING:HDLCompiler:1499 - "D:\FPGAJX\ZC_EXP\EXP10_RIJ_CPU\ipcore_dir\RAM_B.v" Line 39: Empty module <RAM_B> remains a black box.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <RIJ_CPU_Exp>.
+    Related source file is "d:/fpgajx/zc_exp/exp10_rij_cpu/rij_cpu_exp.v".
+    Found 8-bit 15-to-1 multiplexer for signal <LED> created at line 52.
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <RIJ_CPU_Exp> synthesized.
+
+Synthesizing Unit <BTN_OK>.
+    Related source file is "d:/fpgajx/zc_exp/exp10_rij_cpu/btn_ok.v".
+    Found 1-bit register for signal <BTN2>.
+    Found 22-bit register for signal <cnt>.
+    Found 1-bit register for signal <BTN_Out>.
+    Found 1-bit register for signal <BTN_20ms_1>.
+    Found 1-bit register for signal <BTN_20ms_2>.
+    Found 1-bit register for signal <BTN1>.
+    Found 22-bit adder for signal <cnt[21]_GND_2_o_add_2_OUT> created at line 47.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  27 D-type flip-flop(s).
+Unit <BTN_OK> synthesized.
+
+Synthesizing Unit <RIJ_CPU>.
+    Related source file is "d:/fpgajx/zc_exp/exp10_rij_cpu/rij_cpu.v".
+    Found 1-bit register for signal <FR_OF>.
+    Found 1-bit register for signal <FR_ZF>.
+    Found 32-bit adder for signal <PC_new[31]_imm_Data[29]_add_15_OUT> created at line 111.
+    Found 32-bit 4-to-1 multiplexer for signal <PC_next> created at line 108.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   2 D-type flip-flop(s).
+	inferred  20 Multiplexer(s).
+Unit <RIJ_CPU> synthesized.
+
+Synthesizing Unit <IF_M>.
+    Related source file is "d:/fpgajx/zc_exp/exp10_rij_cpu/if.v".
+    Found 32-bit register for signal <PC>.
+    Found 32-bit adder for signal <PC_new> created at line 36.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  32 D-type flip-flop(s).
+Unit <IF_M> synthesized.
+
+Synthesizing Unit <REGS>.
+    Related source file is "d:/fpgajx/zc_exp/exp10_rij_cpu/regs.v".
+    Found 992-bit register for signal <n0049[991:0]>.
+    Found 32-bit 31-to-1 multiplexer for signal <R_Addr_A[4]_REG_Files[31][31]_wide_mux_1_OUT> created at line 36.
+    Found 32-bit 31-to-1 multiplexer for signal <R_Addr_B[4]_REG_Files[31][31]_wide_mux_4_OUT> created at line 37.
+    Summary:
+	inferred 992 D-type flip-flop(s).
+	inferred  35 Multiplexer(s).
+Unit <REGS> synthesized.
+
+Synthesizing Unit <ALU>.
+    Related source file is "d:/fpgajx/zc_exp/exp10_rij_cpu/alu.v".
+        Zero_32 = 32'b00000000000000000000000000000000
+        One_32 = 32'b00000000000000000000000000000001
+    Found 33-bit subtractor for signal <GND_7_o_GND_7_o_sub_7_OUT> created at line 42.
+    Found 33-bit adder for signal <n0035> created at line 41.
+    Found 32-bit shifter logical left for signal <B[31]_A[31]_shift_left_9_OUT> created at line 44
+    Found 32-bit 8-to-1 multiplexer for signal <F> created at line 36.
+    Found 32-bit comparator greater for signal <A[31]_B[31]_LessThan_8_o> created at line 43
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred   1 Comparator(s).
+	inferred   5 Multiplexer(s).
+	inferred   1 Combinational logic shifter(s).
+Unit <ALU> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 5
+ 22-bit adder                                          : 1
+ 32-bit adder                                          : 2
+ 33-bit adder                                          : 1
+ 33-bit subtractor                                     : 1
+# Registers                                            : 10
+ 1-bit register                                        : 7
+ 22-bit register                                       : 1
+ 32-bit register                                       : 1
+ 992-bit register                                      : 1
+# Comparators                                          : 1
+ 32-bit comparator greater                             : 1
+# Multiplexers                                         : 61
+ 1-bit 2-to-1 multiplexer                              : 16
+ 3-bit 2-to-1 multiplexer                              : 1
+ 32-bit 2-to-1 multiplexer                             : 37
+ 32-bit 31-to-1 multiplexer                            : 2
+ 32-bit 4-to-1 multiplexer                             : 1
+ 32-bit 8-to-1 multiplexer                             : 1
+ 5-bit 2-to-1 multiplexer                              : 2
+ 8-bit 15-to-1 multiplexer                             : 1
+# Logic shifters                                       : 1
+ 32-bit shifter logical left                           : 1
+# Xors                                                 : 2
+ 1-bit xor4                                            : 1
+ 32-bit xor2                                           : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Reading core <ipcore_dir/RAM_B.ngc>.
+Reading core <ipcore_dir/ROM_B.ngc>.
+Loading core <RAM_B> for timing and area information for instance <My_RAM>.
+Loading core <ROM_B> for timing and area information for instance <Inst_ROM>.
+
+Synthesizing (advanced) Unit <BTN_OK>.
+The following registers are absorbed into counter <cnt>: 1 register on signal <cnt>.
+Unit <BTN_OK> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 4
+ 32-bit adder                                          : 2
+ 33-bit adder                                          : 1
+ 33-bit subtractor                                     : 1
+# Counters                                             : 1
+ 22-bit up counter                                     : 1
+# Registers                                            : 1031
+ Flip-Flops                                            : 1031
+# Comparators                                          : 1
+ 32-bit comparator greater                             : 1
+# Multiplexers                                         : 61
+ 1-bit 2-to-1 multiplexer                              : 16
+ 3-bit 2-to-1 multiplexer                              : 1
+ 32-bit 2-to-1 multiplexer                             : 37
+ 32-bit 31-to-1 multiplexer                            : 2
+ 32-bit 4-to-1 multiplexer                             : 1
+ 32-bit 8-to-1 multiplexer                             : 1
+ 5-bit 2-to-1 multiplexer                              : 2
+ 8-bit 15-to-1 multiplexer                             : 1
+# Logic shifters                                       : 1
+ 32-bit shifter logical left                           : 1
+# Xors                                                 : 2
+ 1-bit xor4                                            : 1
+ 32-bit xor2                                           : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <RIJ_CPU_Exp> ...
+
+Optimizing unit <BTN_OK> ...
+
+Optimizing unit <RIJ_CPU> ...
+
+Optimizing unit <REGS> ...
+
+Optimizing unit <ALU> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block RIJ_CPU_Exp, actual ratio is 33.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 1053
+ Flip-Flops                                            : 1053
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : RIJ_CPU_Exp.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 2732
+#      GND                         : 3
+#      INV                         : 3
+#      LUT1                        : 50
+#      LUT2                        : 21
+#      LUT3                        : 1002
+#      LUT4                        : 176
+#      LUT5                        : 245
+#      LUT6                        : 907
+#      MUXCY                       : 161
+#      MUXF7                       : 14
+#      VCC                         : 3
+#      XORCY                       : 147
+# FlipFlops/Latches                : 1053
+#      FD                          : 3
+#      FDC_1                       : 32
+#      FDCE                        : 992
+#      FDCE_1                      : 2
+#      FDE                         : 1
+#      FDR                         : 23
+# RAMS                             : 2
+#      RAMB8BWER                   : 2
+# Clock Buffers                    : 2
+#      BUFG                        : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 14
+#      IBUF                        : 6
+#      OBUF                        : 8
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx16csg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:            1053  out of  18224     5%  
+ Number of Slice LUTs:                 2404  out of   9112    26%  
+    Number used as Logic:              2404  out of   9112    26%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:   2405
+   Number with an unused Flip Flop:    1352  out of   2405    56%  
+   Number with an unused LUT:             1  out of   2405     0%  
+   Number of fully used LUT-FF pairs:  1052  out of   2405    43%  
+   Number of unique control sets:         8
+
+IO Utilization: 
+ Number of IOs:                          15
+ Number of bonded IOBs:                  15  out of    232     6%  
+
+Specific Feature Utilization:
+ Number of Block RAM/FIFO:                1  out of     32     3%  
+    Number using Block RAM only:          1
+ Number of BUFG/BUFGCTRLs:                2  out of     16    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk_100MHz                         | BUFGP                  | 28    |
+My_BTN/BTN_Out                     | BUFG                   | 1027  |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 28.631ns (Maximum Frequency: 34.927MHz)
+   Minimum input arrival time before clock: 3.865ns
+   Maximum output required time after clock: 16.317ns
+   Maximum combinational path delay: 7.176ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk_100MHz'
+  Clock period: 3.562ns (frequency: 280.745MHz)
+  Total number of paths / destination ports: 326 / 49
+-------------------------------------------------------------------------
+Delay:               3.562ns (Levels of Logic = 2)
+  Source:            My_BTN/cnt_0 (FF)
+  Destination:       My_BTN/BTN_20ms_1 (FF)
+  Source Clock:      clk_100MHz rising
+  Destination Clock: clk_100MHz rising
+
+  Data Path: My_BTN/cnt_0 to My_BTN/BTN_20ms_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              2   0.447   0.981  My_BTN/cnt_0 (My_BTN/cnt_0)
+     LUT6:I0->O            1   0.203   0.827  My_BTN/cnt[21]_GND_2_o_equal_5_o<21>1 (My_BTN/cnt[21]_GND_2_o_equal_5_o<21>)
+     LUT4:I0->O            1   0.203   0.579  My_BTN/cnt[21]_GND_2_o_equal_5_o<21>5 (My_BTN/cnt[21]_GND_2_o_equal_5_o)
+     FDE:CE                    0.322          My_BTN/BTN_20ms_1
+    ----------------------------------------
+    Total                      3.562ns (1.175ns logic, 2.387ns route)
+                                       (33.0% logic, 67.0% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'My_BTN/BTN_Out'
+  Clock period: 28.631ns (frequency: 34.927MHz)
+  Total number of paths / destination ports: 24519940 / 2032
+-------------------------------------------------------------------------
+Delay:               14.315ns (Levels of Logic = 12)
+  Source:            My_CPU/My_IF/Inst_ROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_init.ram/SP.WIDE_PRIM9.ram (RAM)
+  Destination:       My_CPU/My_IF/PC_31 (FF)
+  Source Clock:      My_BTN/BTN_Out rising
+  Destination Clock: My_BTN/BTN_Out falling
+
+  Data Path: My_CPU/My_IF/Inst_ROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_init.ram/SP.WIDE_PRIM9.ram to My_CPU/My_IF/PC_31
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     RAMB8BWER:CLKBRDCLK->DOBDO5  263   1.850   2.172  U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_init.ram/SP.WIDE_PRIM9.ram (douta<21>)
+     end scope: 'My_CPU/My_IF/Inst_ROM:douta<21>'
+     LUT6:I4->O            3   0.203   0.898  My_CPU/My_REG/Mmux_R_Addr_A[4]_REG_Files[31][31]_wide_mux_1_OUT_834 (My_CPU/My_REG/Mmux_R_Addr_A[4]_REG_Files[31][31]_wide_mux_1_OUT_834)
+     LUT6:I2->O            4   0.203   0.788  My_CPU/My_REG/Mmux_R_Addr_A[4]_REG_Files[31][31]_wide_mux_1_OUT_311 (My_CPU/My_REG/Mmux_R_Addr_A[4]_REG_Files[31][31]_wide_mux_1_OUT_311)
+     LUT4:I2->O           17   0.203   1.028  My_CPU/My_REG/Mmux_R_Data_A121_1 (My_CPU/My_REG/Mmux_R_Data_A121)
+     LUT6:I5->O            4   0.205   0.912  My_CPU/My_ALU/Sh51 (My_CPU/My_ALU/Sh5)
+     LUT6:I3->O            2   0.205   0.721  My_CPU/My_ALU/Sh411 (My_CPU/My_ALU/Sh41)
+     LUT6:I4->O            1   0.203   0.580  My_CPU/My_ALU/Mmux_F172 (My_CPU/My_ALU/Mmux_F171)
+     LUT6:I5->O            3   0.205   0.898  My_CPU/My_ALU/Mmux_F174 (ALU_F<25>)
+     LUT6:I2->O            2   0.203   0.721  My_CPU/My_ALU/ZF<31>2_SW0_SW0_SW0_SW0 (N264)
+     LUT6:I4->O            2   0.203   0.617  My_CPU/My_ALU/ZF<31>3_1 (My_CPU/My_ALU/ZF<31>3)
+     LUT6:I5->O            4   0.205   0.788  My_CPU/Mmux_PC_next1031 (My_CPU/Mmux_PC_next103)
+     LUT6:I4->O            1   0.203   0.000  My_CPU/Mmux_PC_next251 (My_CPU/PC_next<31>)
+     FDC_1:D                   0.102          My_CPU/My_IF/PC_31
+    ----------------------------------------
+    Total                     14.315ns (4.193ns logic, 10.122ns route)
+                                       (29.3% logic, 70.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk_100MHz'
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Offset:              1.940ns (Levels of Logic = 1)
+  Source:            Step_BTN (PAD)
+  Destination:       My_BTN/BTN_20ms_1 (FF)
+  Destination Clock: clk_100MHz rising
+
+  Data Path: Step_BTN to My_BTN/BTN_20ms_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   1.222   0.616  Step_BTN_IBUF (Step_BTN_IBUF)
+     FD:D                      0.102          My_BTN/BTN1
+    ----------------------------------------
+    Total                      1.940ns (1.324ns logic, 0.616ns route)
+                                       (68.2% logic, 31.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'My_BTN/BTN_Out'
+  Total number of paths / destination ports: 1026 / 1026
+-------------------------------------------------------------------------
+Offset:              3.865ns (Levels of Logic = 1)
+  Source:            rst (PAD)
+  Destination:       My_CPU/FR_ZF (FF)
+  Destination Clock: My_BTN/BTN_Out falling
+
+  Data Path: rst to My_CPU/FR_ZF
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O          1026   1.222   2.213  rst_IBUF (rst_IBUF)
+     FDC_1:CLR                 0.430          My_CPU/My_IF/PC_0
+    ----------------------------------------
+    Total                      3.865ns (1.652ns logic, 2.213ns route)
+                                       (42.7% logic, 57.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk_100MHz'
+  Total number of paths / destination ports: 32 / 8
+-------------------------------------------------------------------------
+Offset:              7.097ns (Levels of Logic = 4)
+  Source:            My_CPU/My_RAM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_init.ram/SP.WIDE_PRIM9.ram (RAM)
+  Destination:       LED<7> (PAD)
+  Source Clock:      clk_100MHz rising
+
+  Data Path: My_CPU/My_RAM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_init.ram/SP.WIDE_PRIM9.ram to LED<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     RAMB8BWER:CLKBRDCLK->DOBDO7    2   1.850   0.864  U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_init.ram/SP.WIDE_PRIM9.ram (douta<23>)
+     end scope: 'My_CPU/My_RAM:douta<23>'
+     LUT6:I2->O            1   0.203   0.827  Mmux_LED_78 (Mmux_LED_78)
+     LUT6:I2->O            1   0.203   0.579  SW<3>71 (LED_7_OBUF)
+     OBUF:I->O                 2.571          LED_7_OBUF (LED<7>)
+    ----------------------------------------
+    Total                      7.097ns (4.827ns logic, 2.270ns route)
+                                       (68.0% logic, 32.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'My_BTN/BTN_Out'
+  Total number of paths / destination ports: 347006 / 8
+-------------------------------------------------------------------------
+Offset:              16.317ns (Levels of Logic = 12)
+  Source:            My_CPU/My_IF/Inst_ROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_init.ram/SP.WIDE_PRIM9.ram (RAM)
+  Destination:       LED<0> (PAD)
+  Source Clock:      My_BTN/BTN_Out rising
+
+  Data Path: My_CPU/My_IF/Inst_ROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_init.ram/SP.WIDE_PRIM9.ram to LED<0>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     RAMB8BWER:CLKBRDCLK->DOBDO5  263   1.850   2.172  U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_init.ram/SP.WIDE_PRIM9.ram (douta<21>)
+     end scope: 'My_CPU/My_IF/Inst_ROM:douta<21>'
+     LUT6:I4->O            1   0.203   0.827  My_CPU/My_REG/Mmux_R_Addr_A[4]_REG_Files[31][31]_wide_mux_1_OUT_822 (My_CPU/My_REG/Mmux_R_Addr_A[4]_REG_Files[31][31]_wide_mux_1_OUT_822)
+     LUT6:I2->O            1   0.203   0.684  My_CPU/My_REG/Mmux_R_Addr_A[4]_REG_Files[31][31]_wide_mux_1_OUT_37 (My_CPU/My_REG/Mmux_R_Addr_A[4]_REG_Files[31][31]_wide_mux_1_OUT_37)
+     LUT4:I2->O            7   0.203   1.138  My_CPU/My_REG/Mmux_R_Data_A81 (My_CPU/Reg_Data_A<16>)
+     LUT6:I0->O            3   0.203   0.879  My_CPU/My_ALU/out3 (My_CPU/My_ALU/out2)
+     LUT6:I3->O           15   0.205   0.982  My_CPU/My_ALU/out7 (My_CPU/My_ALU/_n0039)
+     LUT6:I5->O            1   0.205   0.000  My_CPU/My_ALU/Mmux_F_3_lut1 (My_CPU/My_ALU/Mmux_F_3_lut1)
+     MUXCY:S->O            2   0.366   0.617  My_CPU/My_ALU/Mmux_F_3_cy1 (My_CPU/My_ALU/Mmux_F_3)
+     LUT3:I2->O           28   0.205   1.235  My_CPU/My_ALU/Mmux_F_2_f71 (ALU_F<0>)
+     LUT6:I5->O            1   0.205   0.580  Mmux_LED_6 (Mmux_LED_6)
+     LUT6:I5->O            1   0.205   0.579  SW<3>1 (LED_0_OBUF)
+     OBUF:I->O                 2.571          LED_0_OBUF (LED<0>)
+    ----------------------------------------
+    Total                     16.317ns (6.624ns logic, 9.693ns route)
+                                       (40.6% logic, 59.4% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 68 / 8
+-------------------------------------------------------------------------
+Delay:               7.176ns (Levels of Logic = 4)
+  Source:            SW<1> (PAD)
+  Destination:       LED<7> (PAD)
+
+  Data Path: SW<1> to LED<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            26   1.222   1.571  SW_1_IBUF (SW_1_IBUF)
+     LUT6:I0->O            1   0.203   0.827  Mmux_LED_7 (Mmux_LED_7)
+     LUT6:I2->O            1   0.203   0.579  SW<3>1 (LED_0_OBUF)
+     OBUF:I->O                 2.571          LED_0_OBUF (LED<0>)
+    ----------------------------------------
+    Total                      7.176ns (4.199ns logic, 2.977ns route)
+                                       (58.5% logic, 41.5% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock My_BTN/BTN_Out
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+My_BTN/BTN_Out |         |    1.480|   14.315|         |
+clk_100MHz     |         |         |    4.359|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock clk_100MHz
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+My_BTN/BTN_Out |   11.608|    9.049|         |         |
+clk_100MHz     |    3.562|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 39.00 secs
+Total CPU time to Xst completion: 38.70 secs
+ 
+--> 
+
+Total memory usage is 160832 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    2 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

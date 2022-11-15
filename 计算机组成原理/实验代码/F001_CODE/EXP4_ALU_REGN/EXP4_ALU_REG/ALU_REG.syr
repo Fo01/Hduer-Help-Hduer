@@ -1,0 +1,295 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.07 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.07 secs
+ 
+--> Reading design: ALU_REG.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "ALU_REG.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "ALU_REG"
+Output Format                      : NGC
+Target Device                      : xc6slx16-3-csg324
+
+---- Source Options
+Top Module Name                    : ALU_REG
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "E:\Computer Orgnization\EXP4_ALU_REGN\EXP4_ALU_REG\MIPS_REG.v" into library work
+Parsing module <MIPS_REG>.
+Analyzing Verilog file "E:\Computer Orgnization\EXP4_ALU_REGN\EXP4_ALU_REG\ALU_8F.v" into library work
+Parsing module <ALU_8F>.
+Analyzing Verilog file "E:\Computer Orgnization\EXP4_ALU_REGN\EXP4_ALU_REG\ALU_REG.v" into library work
+Parsing module <ALU_REG>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <ALU_REG>.
+
+Elaborating module <MIPS_REG>.
+
+Elaborating module <ALU_8F>.
+ERROR:HDLCompiler:1401 - "E:\Computer Orgnization\EXP4_ALU_REGN\EXP4_ALU_REG\ALU_REG.v" Line 42: Signal R_Data_A[31] in unit ALU_REG is connected to following multiple drivers:
+Driver 0: Registers/R_Data_A[31] driven by output signal R_Data_A[31] of instance Multiplexer (Registers).
+Driver 1: output signal of instance Ground (GND_1_o_buf_0).
+Driver 2: Registers/R_Data_B[31] driven by output signal R_Data_B[31] of instance Multiplexer (Registers).
+Driver 0: Registers/R_Data_A[30] driven by output signal R_Data_A[30] of instance Multiplexer (Registers).
+Driver 1: output signal of instance Ground (GND_1_o_buf_0).
+Driver 2: Registers/R_Data_B[30] driven by output signal R_Data_B[30] of instance Multiplexer (Registers).
+Driver 0: Registers/R_Data_A[29] driven by output signal R_Data_A[29] of instance Multiplexer (Registers).
+Driver 1: output signal of instance Ground (GND_1_o_buf_0).
+Driver 2: Registers/R_Data_B[29] driven by output signal R_Data_B[29] of instance Multiplexer (Registers).
+Driver 0: Registers/R_Data_A[28] driven by output signal R_Data_A[28] of instance Multiplexer (Registers).
+Driver 1: output signal of instance Ground (GND_1_o_buf_0).
+Driver 2: Registers/R_Data_B[28] driven by output signal R_Data_B[28] of instance Multiplexer (Registers).
+Driver 0: Registers/R_Data_A[27] driven by output signal R_Data_A[27] of instance Multiplexer (Registers).
+Driver 1: output signal of instance Ground (GND_1_o_buf_0).
+Driver 2: Registers/R_Data_B[27] driven by output signal R_Data_B[27] of instance Multiplexer (Registers).
+Driver 0: Registers/R_Data_A[26] driven by output signal R_Data_A[26] of instance Multiplexer (Registers).
+Driver 1: output signal of instance Ground (GND_1_o_buf_0).
+Driver 2: Registers/R_Data_B[26] driven by output signal R_Data_B[26] of instance Multiplexer (Registers).
+Driver 0: Registers/R_Data_A[25] driven by output signal R_Data_A[25] of instance Multiplexer (Registers).
+Driver 1: output signal of instance Ground (GND_1_o_buf_0).
+Driver 2: Registers/R_Data_B[25] driven by output signal R_Data_B[25] of instance Multiplexer (Registers).
+Driver 0: Registers/R_Data_A[24] driven by output signal R_Data_A[24] of instance Multiplexer (Registers).
+Driver 1: output signal of instance Ground (GND_1_o_buf_0).
+Driver 2: Registers/R_Data_B[24] driven by output signal R_Data_B[24] of instance Multiplexer (Registers).
+Driver 0: Registers/R_Data_A[23] driven by output signal R_Data_A[23] of instance Multiplexer (Registers).
+Driver 1: output signal of instance Ground (GND_1_o_buf_0).
+Driver 2: Registers/R_Data_B[23] driven by output signal R_Data_B[23] of instance Multiplexer (Registers).
+Driver 0: Registers/R_Data_A[22] driven by output signal R_Data_A[22] of instance Multiplexer (Registers).
+Driver 1: output signal of instance Ground (GND_1_o_buf_0).
+Driver 2: Registers/R_Data_B[22] driven by output signal R_Data_B[22] of instance Multiplexer (Registers).
+Driver 0: Registers/R_Data_A[21] driven by output signal R_Data_A[21] of instance Multiplexer (Registers).
+Driver 1: output signal of instance Ground (GND_1_o_buf_0).
+Driver 2: Registers/R_Data_B[21] driven by output signal R_Data_B[21] of instance Multiplexer (Registers).
+Driver 0: Registers/R_Data_A[20] driven by output signal R_Data_A[20] of instance Multiplexer (Registers).
+Driver 1: output signal of instance Ground (GND_1_o_buf_0).
+Driver 2: Registers/R_Data_B[20] driven by output signal R_Data_B[20] of instance Multiplexer (Registers).
+Driver 0: Registers/R_Data_A[19] driven by output signal R_Data_A[19] of instance Multiplexer (Registers).
+Driver 1: output signal of instance Ground (GND_1_o_buf_0).
+Driver 2: Registers/R_Data_B[19] driven by output signal R_Data_B[19] of instance Multiplexer (Registers).
+Driver 0: Registers/R_Data_A[18] driven by output signal R_Data_A[18] of instance Multiplexer (Registers).
+Driver 1: output signal of instance Ground (GND_1_o_buf_0).
+Driver 2: Registers/R_Data_B[18] driven by output signal R_Data_B[18] of instance Multiplexer (Registers).
+Driver 0: Registers/R_Data_A[17] driven by output signal R_Data_A[17] of instance Multiplexer (Registers).
+Driver 1: output signal of instance Ground (GND_1_o_buf_0).
+Driver 2: Registers/R_Data_B[17] driven by output signal R_Data_B[17] of instance Multiplexer (Registers).
+Driver 0: Registers/R_Data_A[16] driven by output signal R_Data_A[16] of instance Multiplexer (Registers).
+Driver 1: output signal of instance Ground (GND_1_o_buf_0).
+Driver 2: Registers/R_Data_B[16] driven by output signal R_Data_B[16] of instance Multiplexer (Registers).
+Driver 0: Registers/R_Data_A[15] driven by output signal R_Data_A[15] of instance Multiplexer (Registers).
+Driver 1: output signal of instance Ground (GND_1_o_buf_0).
+Driver 2: Registers/R_Data_B[15] driven by output signal R_Data_B[15] of instance Multiplexer (Registers).
+Driver 0: Registers/R_Data_A[14] driven by output signal R_Data_A[14] of instance Multiplexer (Registers).
+Driver 1: output signal of instance Ground (GND_1_o_buf_0).
+Driver 2: Registers/R_Data_B[14] driven by output signal R_Data_B[14] of instance Multiplexer (Registers).
+Driver 0: Registers/R_Data_A[13] driven by output signal R_Data_A[13] of instance Multiplexer (Registers).
+Driver 1: output signal of instance Ground (GND_1_o_buf_0).
+Driver 2: Registers/R_Data_B[13] driven by output signal R_Data_B[13] of instance Multiplexer (Registers).
+Driver 0: Registers/R_Data_A[12] driven by output signal R_Data_A[12] of instance Multiplexer (Registers).
+Driver 1: output signal of instance Ground (GND_1_o_buf_0).
+Driver 2: Registers/R_Data_B[12] driven by output signal R_Data_B[12] of instance Multiplexer (Registers).
+Driver 0: Registers/R_Data_A[11] driven by output signal R_Data_A[11] of instance Multiplexer (Registers).
+Driver 1: output signal of instance Ground (GND_1_o_buf_0).
+Driver 2: Registers/R_Data_B[11] driven by output signal R_Data_B[11] of instance Multiplexer (Registers).
+Driver 0: Registers/R_Data_A[10] driven by output signal R_Data_A[10] of instance Multiplexer (Registers).
+Driver 1: output signal of instance Ground (GND_1_o_buf_0).
+Driver 2: Registers/R_Data_B[10] driven by output signal R_Data_B[10] of instance Multiplexer (Registers).
+Driver 0: Registers/R_Data_A[9] driven by output signal R_Data_A[9] of instance Multiplexer (Registers).
+Driver 1: output signal of instance Ground (GND_1_o_buf_0).
+Driver 2: Registers/R_Data_B[9] driven by output signal R_Data_B[9] of instance Multiplexer (Registers).
+Driver 0: Registers/R_Data_A[8] driven by output signal R_Data_A[8] of instance Multiplexer (Registers).
+Driver 1: output signal of instance Ground (GND_1_o_buf_0).
+Driver 2: Registers/R_Data_B[8] driven by output signal R_Data_B[8] of instance Multiplexer (Registers).
+Driver 0: Registers/R_Data_A[7] driven by output signal R_Data_A[7] of instance Multiplexer (Registers).
+Driver 1: output signal of instance Ground (GND_1_o_buf_0).
+Driver 2: Registers/R_Data_B[7] driven by output signal R_Data_B[7] of instance Multiplexer (Registers).
+Driver 0: Registers/R_Data_A[6] driven by output signal R_Data_A[6] of instance Multiplexer (Registers).
+Driver 1: output signal of instance Ground (GND_1_o_buf_0).
+Driver 2: Registers/R_Data_B[6] driven by output signal R_Data_B[6] of instance Multiplexer (Registers).
+Driver 0: Registers/R_Data_A[5] driven by output signal R_Data_A[5] of instance Multiplexer (Registers).
+Driver 1: output signal of instance Ground (GND_1_o_buf_0).
+Driver 2: Registers/R_Data_B[5] driven by output signal R_Data_B[5] of instance Multiplexer (Registers).
+Driver 0: Registers/R_Data_A[4] driven by output signal R_Data_A[4] of instance Multiplexer (Registers).
+Driver 1: output signal of instance Ground (GND_1_o_buf_0).
+Driver 2: Registers/R_Data_B[4] driven by output signal R_Data_B[4] of instance Multiplexer (Registers).
+Driver 0: Registers/R_Data_A[3] driven by output signal R_Data_A[3] of instance Multiplexer (Registers).
+Driver 1: output signal of instance Ground (GND_1_o_buf_0).
+Driver 2: Registers/R_Data_B[3] driven by output signal R_Data_B[3] of instance Multiplexer (Registers).
+Driver 0: Registers/R_Data_A[2] driven by output signal R_Data_A[2] of instance Multiplexer (Registers).
+Driver 1: output signal of instance Ground (GND_1_o_buf_0).
+Driver 2: Registers/R_Data_B[2] driven by output signal R_Data_B[2] of instance Multiplexer (Registers).
+Driver 0: Registers/R_Data_A[1] driven by output signal R_Data_A[1] of instance Multiplexer (Registers).
+Driver 1: output signal of instance Ground (GND_1_o_buf_0).
+Driver 2: Registers/R_Data_B[1] driven by output signal R_Data_B[1] of instance Multiplexer (Registers).
+Driver 0: Registers/R_Data_A[0] driven by output signal R_Data_A[0] of instance Multiplexer (Registers).
+Driver 1: output signal of instance Ground (GND_1_o_buf_0).
+Driver 2: Registers/R_Data_B[0] driven by output signal R_Data_B[0] of instance Multiplexer (Registers).
+ERROR:HDLCompiler:1401 - "E:\Computer Orgnization\EXP4_ALU_REGN\EXP4_ALU_REG\ALU_REG.v" Line 39: Signal W_Data[31] in unit ALU_REG is connected to following multiple drivers:
+Driver 0: MIPS_ALU/F[31] driven by output signal F[31] of instance ALU_OP[2]_B[31]_wide_mux_10 (MIPS_ALU).
+Driver 1: output signal of instance Ground (GND_1_o_buf_2).
+Driver 0: MIPS_ALU/F[30] driven by output signal F[30] of instance ALU_OP[2]_B[31]_wide_mux_10 (MIPS_ALU).
+Driver 1: output signal of instance Ground (GND_1_o_buf_2).
+Driver 0: MIPS_ALU/F[29] driven by output signal F[29] of instance ALU_OP[2]_B[31]_wide_mux_10 (MIPS_ALU).
+Driver 1: output signal of instance Ground (GND_1_o_buf_2).
+Driver 0: MIPS_ALU/F[28] driven by output signal F[28] of instance ALU_OP[2]_B[31]_wide_mux_10 (MIPS_ALU).
+Driver 1: output signal of instance Power (GND_1_o_buf_2).
+Driver 0: MIPS_ALU/F[27] driven by output signal F[27] of instance ALU_OP[2]_B[31]_wide_mux_10 (MIPS_ALU).
+Driver 1: output signal of instance Ground (GND_1_o_buf_2).
+Driver 0: MIPS_ALU/F[26] driven by output signal F[26] of instance ALU_OP[2]_B[31]_wide_mux_10 (MIPS_ALU).
+Driver 1: output signal of instance Ground (GND_1_o_buf_2).
+Driver 0: MIPS_ALU/F[25] driven by output signal F[25] of instance ALU_OP[2]_B[31]_wide_mux_10 (MIPS_ALU).
+Driver 1: output signal of instance Ground (GND_1_o_buf_2).
+Driver 0: MIPS_ALU/F[24] driven by output signal F[24] of instance ALU_OP[2]_B[31]_wide_mux_10 (MIPS_ALU).
+Driver 1: output signal of instance Ground (GND_1_o_buf_2).
+Driver 0: MIPS_ALU/F[23] driven by output signal F[23] of instance ALU_OP[2]_B[31]_wide_mux_10 (MIPS_ALU).
+Driver 1: output signal of instance Ground (GND_1_o_buf_2).
+Driver 0: MIPS_ALU/F[22] driven by output signal F[22] of instance ALU_OP[2]_B[31]_wide_mux_10 (MIPS_ALU).
+Driver 1: output signal of instance Ground (GND_1_o_buf_2).
+Driver 0: MIPS_ALU/F[21] driven by output signal F[21] of instance ALU_OP[2]_B[31]_wide_mux_10 (MIPS_ALU).
+Driver 1: output signal of instance Ground (GND_1_o_buf_2).
+Driver 0: MIPS_ALU/F[20] driven by output signal F[20] of instance ALU_OP[2]_B[31]_wide_mux_10 (MIPS_ALU).
+Driver 1: output signal of instance Power (GND_1_o_buf_2).
+Driver 0: MIPS_ALU/F[19] driven by output signal F[19] of instance ALU_OP[2]_B[31]_wide_mux_10 (MIPS_ALU).
+Driver 1: output signal of instance Ground (GND_1_o_buf_2).
+Driver 0: MIPS_ALU/F[18] driven by output signal F[18] of instance ALU_OP[2]_B[31]_wide_mux_10 (MIPS_ALU).
+Driver 1: output signal of instance Ground (GND_1_o_buf_2).
+Driver 0: MIPS_ALU/F[17] driven by output signal F[17] of instance ALU_OP[2]_B[31]_wide_mux_10 (MIPS_ALU).
+Driver 1: output signal of instance Ground (GND_1_o_buf_2).
+Driver 0: MIPS_ALU/F[16] driven by output signal F[16] of instance ALU_OP[2]_B[31]_wide_mux_10 (MIPS_ALU).
+Driver 1: output signal of instance Ground (GND_1_o_buf_2).
+Driver 0: MIPS_ALU/F[15] driven by output signal F[15] of instance ALU_OP[2]_B[31]_wide_mux_10 (MIPS_ALU).
+Driver 1: output signal of instance Ground (GND_1_o_buf_2).
+Driver 0: MIPS_ALU/F[14] driven by output signal F[14] of instance ALU_OP[2]_B[31]_wide_mux_10 (MIPS_ALU).
+Driver 1: output signal of instance Ground (GND_1_o_buf_2).
+Driver 0: MIPS_ALU/F[13] driven by output signal F[13] of instance ALU_OP[2]_B[31]_wide_mux_10 (MIPS_ALU).
+Driver 1: output signal of instance Ground (GND_1_o_buf_2).
+Driver 0: MIPS_ALU/F[12] driven by output signal F[12] of instance ALU_OP[2]_B[31]_wide_mux_10 (MIPS_ALU).
+Driver 1: output signal of instance Ground (GND_1_o_buf_2).
+Driver 0: MIPS_ALU/F[11] driven by output signal F[11] of instance ALU_OP[2]_B[31]_wide_mux_10 (MIPS_ALU).
+Driver 1: output signal of instance Ground (GND_1_o_buf_2).
+Driver 0: MIPS_ALU/F[10] driven by output signal F[10] of instance ALU_OP[2]_B[31]_wide_mux_10 (MIPS_ALU).
+Driver 1: output signal of instance Ground (GND_1_o_buf_2).
+Driver 0: MIPS_ALU/F[9] driven by output signal F[9] of instance ALU_OP[2]_B[31]_wide_mux_10 (MIPS_ALU).
+Driver 1: output signal of instance Ground (GND_1_o_buf_2).
+Driver 0: MIPS_ALU/F[8] driven by output signal F[8] of instance ALU_OP[2]_B[31]_wide_mux_10 (MIPS_ALU).
+Driver 1: output signal of instance Power (GND_1_o_buf_2).
+Driver 0: MIPS_ALU/F[7] driven by output signal F[7] of instance ALU_OP[2]_B[31]_wide_mux_10 (MIPS_ALU).
+Driver 1: output signal of instance Ground (GND_1_o_buf_2).
+Driver 0: MIPS_ALU/F[6] driven by output signal F[6] of instance ALU_OP[2]_B[31]_wide_mux_10 (MIPS_ALU).
+Driver 1: output signal of instance Ground (GND_1_o_buf_2).
+Driver 0: MIPS_ALU/F[5] driven by output signal F[5] of instance ALU_OP[2]_B[31]_wide_mux_10 (MIPS_ALU).
+Driver 1: output signal of instance Ground (GND_1_o_buf_2).
+Driver 0: MIPS_ALU/F[4] driven by output signal F[4] of instance ALU_OP[2]_B[31]_wide_mux_10 (MIPS_ALU).
+Driver 1: output signal of instance Ground (GND_1_o_buf_2).
+Driver 0: MIPS_ALU/F[3] driven by output signal F[3] of instance ALU_OP[2]_B[31]_wide_mux_10 (MIPS_ALU).
+Driver 1: output signal of instance Ground (GND_1_o_buf_2).
+Driver 0: MIPS_ALU/F[2] driven by output signal F[2] of instance ALU_OP[2]_B[31]_wide_mux_10 (MIPS_ALU).
+Driver 1: output signal of instance Ground (GND_1_o_buf_2).
+Driver 0: MIPS_ALU/F[1] driven by output signal F[1] of instance ALU_OP[2]_B[31]_wide_mux_10 (MIPS_ALU).
+Driver 1: output signal of instance Ground (GND_1_o_buf_2).
+Driver 0: MIPS_ALU/F[0] driven by output signal F[0] of instance ALU_OP[2]_B[31]_wide_mux_10 (MIPS_ALU).
+Driver 1: output signal of instance Ground (GND_1_o_buf_2).
+Module ALU_REG remains a blackbox, due to errors in its contents
+WARNING:HDLCompiler:1499 - "E:\Computer Orgnization\EXP4_ALU_REGN\EXP4_ALU_REG\ALU_REG.v" Line 21: Empty module <ALU_REG> remains a black box.
+--> 
+
+Total memory usage is 4468996 kilobytes
+
+Number of errors   :    2 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

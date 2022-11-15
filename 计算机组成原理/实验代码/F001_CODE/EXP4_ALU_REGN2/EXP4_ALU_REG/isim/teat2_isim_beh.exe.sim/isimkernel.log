@@ -1,0 +1,28 @@
+Command line:
+   teat2_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  9213
+
+Thu Nov 22 10:50:12 2018
+
+
+ Elaboration Time: 0.218401 sec
+
+ Current Memory Usage: 671.715 Meg
+
+ Total Signals          : 44
+ Total Nets             : 132
+ Total Signal Drivers   : 20
+ Total Blocks           : 5
+ Total Primitive Blocks : 3
+ Total Processes        : 24
+ Total Traceable Variables  : 31
+ Total Scalar Nets and Variables : 1354
+
+ Total Simulation Time: 0.405603 sec
+
+ Current Memory Usage: 671.715 Meg
+
+Thu Nov 22 10:50:17 2018
+

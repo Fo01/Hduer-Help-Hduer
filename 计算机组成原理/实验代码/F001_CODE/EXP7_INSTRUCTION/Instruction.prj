@@ -1,0 +1,2 @@
+verilog work "Instruction.v"
+verilog work "ipcore_dir/Inst_ROM.v"

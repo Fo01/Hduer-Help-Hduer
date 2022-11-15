@@ -1,0 +1,12 @@
+[Inputs]
+=A[31:0]=
+=B[31:0]=
+=ALU_OP[2:0]=
+[Outputs]
+ZF
+OF
+=F[31:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel ALU_8F
+

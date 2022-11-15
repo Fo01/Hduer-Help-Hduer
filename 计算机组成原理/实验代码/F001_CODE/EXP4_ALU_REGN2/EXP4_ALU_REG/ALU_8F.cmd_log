@@ -1,0 +1,3 @@
+vhdtdtfi -lib work {E:/Computer Orgnization/EXP4_ALU_REGN2/EXP4_ALU_REG/ALU_8F.v} -lang verilog -prj EXP4_ALU_REG -o ALU_8F.spl -module ALU_8F -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 ALU_8F.spl {E:/Computer Orgnization/EXP4_ALU_REGN2/EXP4_ALU_REG/ALU_8F.sym} 
+vhdtdtfi -lang verilog -prj EXP4_ALU_REG -o "E:/Computer Orgnization/EXP4_ALU_REGN2/EXP4_ALU_REG/ALU_8F.tfi" -lib work "E:/Computer Orgnization/EXP4_ALU_REGN2/EXP4_ALU_REG//ALU_8F.v" -module ALU_8F -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

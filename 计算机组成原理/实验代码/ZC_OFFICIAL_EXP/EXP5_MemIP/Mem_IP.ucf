@@ -1,0 +1,19 @@
+NET "Mem_Addr[7]" LOC = T5;		//SW7
+NET "Mem_Addr[6]" LOC = V8;		//SW6
+NET "Mem_Addr[5]" LOC = U8;		//SW5
+NET "Mem_Addr[4]" LOC = N8;		//SW4
+NET "Mem_Addr[3]" LOC = M8;		//SW3
+NET "Mem_Addr[2]" LOC = V9;		//SW2
+NET "Mem_Addr[1]" LOC = T9;		//SW1
+NET "Mem_Addr[0]" LOC = T10;		//SW0
+NET "Mem_Write" 	LOC = D9;		//BTNR
+NET "Clk_m" 		LOC = V10;		//100MHz
+
+NET "LED[7]" LOC = T11;		//LED7
+NET "LED[6]" LOC = R11;		//LED6
+NET "LED[5]" LOC = N11;		//LED5
+NET "LED[4]" LOC = M11;		//LED4
+NET "LED[3]" LOC = V15;		//LED3
+NET "LED[2]" LOC = U15;		//LED2
+NET "LED[1]" LOC = V16;		//LED1
+NET "LED[0]" LOC = U16;		//LED0

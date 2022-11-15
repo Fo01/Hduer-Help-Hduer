@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "E:/Computer Orgnization/EXP8_CPU/CPU_R.xst" -ofn "E:/Computer Orgnization/EXP8_CPU/CPU_R.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa7a100t-csg324-2I "CPU_R.ngc" CPU_R.ngd  

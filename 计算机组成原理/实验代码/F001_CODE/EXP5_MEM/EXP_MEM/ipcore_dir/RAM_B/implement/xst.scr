@@ -1,0 +1,13 @@
+run
+-ifmt VHDL
+-ent RAM_B_exdes
+-p xa7a100t-csg324-2i
+-ifn xst.prj
+-write_timing_constraints No
+-iobuf YES
+-max_fanout 100
+-ofn RAM_B_exdes 
+-ofmt NGC
+-bus_delimiter ()
+-hierarchy_separator /
+-case Maintain

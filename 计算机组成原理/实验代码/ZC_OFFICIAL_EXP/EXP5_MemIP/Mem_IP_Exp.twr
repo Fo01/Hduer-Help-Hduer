@@ -1,0 +1,107 @@
+--------------------------------------------------------------------------------
+Release 13.4 Trace  (nt)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+D:\Xilinx\13.4\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 3 -n
+3 -fastpaths -xml Mem_IP_Exp.twx Mem_IP_Exp.ncd -o Mem_IP_Exp.twr
+Mem_IP_Exp.pcf -ucf Mem_IP.ucf
+
+Design file:              Mem_IP_Exp.ncd
+Physical constraint file: Mem_IP_Exp.pcf
+Device,package,speed:     xc6slx16,csg324,C,-3 (PRODUCTION 1.21 2012-01-07)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock Clk_m
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+Mem_Addr<0> |    2.484(R)|      SLOW  |   -0.910(R)|      FAST  |Clk_m_BUFGP       |   0.000|
+Mem_Addr<1> |    2.584(R)|      SLOW  |   -0.956(R)|      FAST  |Clk_m_BUFGP       |   0.000|
+Mem_Addr<2> |    1.306(R)|      SLOW  |   -0.356(R)|      SLOW  |Clk_m_BUFGP       |   0.000|
+Mem_Addr<3> |    2.261(R)|      SLOW  |   -0.656(R)|      SLOW  |Clk_m_BUFGP       |   0.000|
+Mem_Addr<4> |    1.880(R)|      SLOW  |   -0.618(R)|      SLOW  |Clk_m_BUFGP       |   0.000|
+Mem_Addr<5> |    1.577(R)|      SLOW  |   -0.482(R)|      SLOW  |Clk_m_BUFGP       |   0.000|
+Mem_Addr<6> |    1.468(R)|      SLOW  |   -0.382(R)|      SLOW  |Clk_m_BUFGP       |   0.000|
+Mem_Addr<7> |    2.328(R)|      SLOW  |   -1.036(R)|      FAST  |Clk_m_BUFGP       |   0.000|
+Mem_Write   |    5.523(R)|      SLOW  |   -2.248(R)|      FAST  |Clk_m_BUFGP       |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Clock Clk_m to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+LED<0>      |        10.032(R)|      SLOW  |         4.856(R)|      FAST  |Clk_m_BUFGP       |   0.000|
+LED<1>      |        10.987(R)|      SLOW  |         5.425(R)|      FAST  |Clk_m_BUFGP       |   0.000|
+LED<2>      |         9.639(R)|      SLOW  |         4.713(R)|      FAST  |Clk_m_BUFGP       |   0.000|
+LED<3>      |        10.415(R)|      SLOW  |         5.088(R)|      FAST  |Clk_m_BUFGP       |   0.000|
+LED<4>      |        10.134(R)|      SLOW  |         4.932(R)|      FAST  |Clk_m_BUFGP       |   0.000|
+LED<5>      |        10.807(R)|      SLOW  |         5.266(R)|      FAST  |Clk_m_BUFGP       |   0.000|
+LED<6>      |         9.796(R)|      SLOW  |         4.878(R)|      FAST  |Clk_m_BUFGP       |   0.000|
+LED<7>      |        10.659(R)|      SLOW  |         5.241(R)|      FAST  |Clk_m_BUFGP       |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+Mem_Addr<0>    |LED<0>         |    8.281|
+Mem_Addr<0>    |LED<1>         |    9.244|
+Mem_Addr<0>    |LED<2>         |    8.407|
+Mem_Addr<0>    |LED<3>         |    8.853|
+Mem_Addr<0>    |LED<4>         |    8.392|
+Mem_Addr<0>    |LED<5>         |    8.865|
+Mem_Addr<0>    |LED<6>         |    8.000|
+Mem_Addr<0>    |LED<7>         |    8.852|
+Mem_Addr<1>    |LED<0>         |    7.953|
+Mem_Addr<1>    |LED<1>         |    8.461|
+Mem_Addr<1>    |LED<2>         |    8.272|
+Mem_Addr<1>    |LED<3>         |    8.272|
+Mem_Addr<1>    |LED<4>         |    8.230|
+Mem_Addr<1>    |LED<5>         |    8.089|
+Mem_Addr<1>    |LED<6>         |    7.822|
+Mem_Addr<1>    |LED<7>         |    8.152|
+Mem_Write      |LED<0>         |   10.932|
+Mem_Write      |LED<1>         |   10.598|
+Mem_Write      |LED<2>         |   10.671|
+Mem_Write      |LED<3>         |   11.107|
+Mem_Write      |LED<4>         |   11.011|
+Mem_Write      |LED<5>         |   10.755|
+Mem_Write      |LED<6>         |   10.565|
+Mem_Write      |LED<7>         |   11.018|
+---------------+---------------+---------+
+
+
+Analysis completed Wed Feb 26 17:54:28 2014 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 132 MB
+
+
+

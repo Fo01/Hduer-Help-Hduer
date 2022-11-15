@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "D:/FPGAJX/ZC_EXP/EXP4_REG/REG.xst" -ofn "D:/FPGAJX/ZC_EXP/EXP4_REG/REG.syr" 
+xst -intstyle ise -ifn "D:/FPGAJX/ZC_EXP/EXP4_REG/REG.xst" -ofn "D:/FPGAJX/ZC_EXP/EXP4_REG/REG.syr" 

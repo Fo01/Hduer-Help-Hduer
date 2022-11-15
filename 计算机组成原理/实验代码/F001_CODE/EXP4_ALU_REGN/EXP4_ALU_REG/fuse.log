@@ -1,0 +1,16 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o E:/Computer Orgnization/EXP4_ALU_REGN/EXP4_ALU_REG/ALU_8F_isim_beh.exe -prj E:/Computer Orgnization/EXP4_ALU_REGN/EXP4_ALU_REG/ALU_8F_beh.prj work.ALU_8F work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 12
+Turning on mult-threading, number of parallel sub-compilation jobs: 24 
+Determining compilation order of HDL files
+Analyzing Verilog file "E:/Computer Orgnization/EXP4_ALU_REGN/EXP4_ALU_REG/ALU_8F.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module ALU_8F
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Compiled 2 Verilog Units
+Built simulation executable E:/Computer Orgnization/EXP4_ALU_REGN/EXP4_ALU_REG/ALU_8F_isim_beh.exe
+Fuse Memory Usage: 28656 KB
+Fuse CPU Usage: 312 ms

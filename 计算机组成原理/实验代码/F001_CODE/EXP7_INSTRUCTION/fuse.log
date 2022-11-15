@@ -1,0 +1,25 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o E:/Computer Orgnization/EXP7_INSTRUCTION/Simu_isim_beh.exe -prj E:/Computer Orgnization/EXP7_INSTRUCTION/Simu_beh.prj work.Simu work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 12
+Turning on mult-threading, number of parallel sub-compilation jobs: 24 
+Determining compilation order of HDL files
+Analyzing Verilog file "E:/Computer Orgnization/EXP7_INSTRUCTION/Instruction.v" into library work
+Analyzing Verilog file "E:/Computer Orgnization/EXP7_INSTRUCTION/Simu.v" into library work
+Analyzing Verilog file "E:/Computer Orgnization/EXP7_INSTRUCTION/ipcore_dir/Inst_ROM.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module BLK_MEM_GEN_V7_3_output_stage(C_...
+Compiling module BLK_MEM_GEN_V7_3_softecc_output_...
+Compiling module BLK_MEM_GEN_V7_3_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V7_3(C_FAMILY="spart...
+Compiling module Inst_ROM
+Compiling module Instruction
+Compiling module Simu
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 8 Verilog Units
+Built simulation executable E:/Computer Orgnization/EXP7_INSTRUCTION/Simu_isim_beh.exe
+Fuse Memory Usage: 32792 KB
+Fuse CPU Usage: 343 ms

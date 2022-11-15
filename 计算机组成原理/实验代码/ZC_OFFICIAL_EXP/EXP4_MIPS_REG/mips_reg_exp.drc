@@ -1,0 +1,8 @@
+Release 13.4 Drc O.87xd (nt)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+Fri Feb 07 17:11:39 2014
+
+drc -z MIPS_REG_Exp.ncd MIPS_REG_Exp.pcf
+
+DRC detected 0 errors and 0 warnings.

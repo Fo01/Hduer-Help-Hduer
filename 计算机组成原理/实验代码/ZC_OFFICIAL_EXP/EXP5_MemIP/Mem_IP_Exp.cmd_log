@@ -1,0 +1,38 @@
+xst -intstyle ise -ifn "D:/FPGAJX/ZC_EXP/Mem_IP/Mem_IP_Exp.xst" -ofn "D:/FPGAJX/ZC_EXP/Mem_IP/Mem_IP_Exp.syr" 
+xst -intstyle ise -ifn "D:/FPGAJX/ZC_EXP/Mem_IP/Mem_IP_Exp.xst" -ofn "D:/FPGAJX/ZC_EXP/Mem_IP/Mem_IP_Exp.syr" 
+xst -intstyle ise -ifn "D:/FPGAJX/ZC_EXP/Mem_IP/Mem_IP_Exp.xst" -ofn "D:/FPGAJX/ZC_EXP/Mem_IP/Mem_IP_Exp.syr" 
+xst -intstyle ise -ifn "D:/FPGAJX/ZC_EXP/Mem_IP/Mem_IP_Exp.xst" -ofn "D:/FPGAJX/ZC_EXP/Mem_IP/Mem_IP_Exp.syr" 
+xst -intstyle ise -ifn "D:/FPGAJX/ZC_EXP/Mem_IP/Mem_IP_Exp.xst" -ofn "D:/FPGAJX/ZC_EXP/Mem_IP/Mem_IP_Exp.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Mem_IP.ucf -p xc6slx16-csg324-3 Mem_IP_Exp.ngc Mem_IP_Exp.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Mem_IP_Exp_map.ncd Mem_IP_Exp.ngd Mem_IP_Exp.pcf 
+xst -intstyle ise -ifn "D:/FPGAJX/ZC_EXP/Mem_IP/Mem_IP_Exp.xst" -ofn "D:/FPGAJX/ZC_EXP/Mem_IP/Mem_IP_Exp.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Mem_IP.ucf -p xc6slx16-csg324-3 Mem_IP_Exp.ngc Mem_IP_Exp.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Mem_IP_Exp_map.ncd Mem_IP_Exp.ngd Mem_IP_Exp.pcf 
+par -w -intstyle ise -ol high -mt off Mem_IP_Exp_map.ncd Mem_IP_Exp.ncd Mem_IP_Exp.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Mem_IP_Exp.twx Mem_IP_Exp.ncd -o Mem_IP_Exp.twr Mem_IP_Exp.pcf -ucf Mem_IP.ucf 
+xst -intstyle ise -ifn "D:/FPGAJX/ZC_EXP/Mem_IP/Mem_IP_Exp.xst" -ofn "D:/FPGAJX/ZC_EXP/Mem_IP/Mem_IP_Exp.syr" 
+xst -intstyle ise -ifn "D:/FPGAJX/ZC_EXP/Mem_IP/Mem_IP_Exp.xst" -ofn "D:/FPGAJX/ZC_EXP/Mem_IP/Mem_IP_Exp.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Mem_IP.ucf -p xc6slx16-csg324-3 Mem_IP_Exp.ngc Mem_IP_Exp.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Mem_IP_Exp_map.ncd Mem_IP_Exp.ngd Mem_IP_Exp.pcf 
+xst -intstyle ise -ifn "D:/FPGAJX/ZC_EXP/Mem_IP/Mem_IP_Exp.xst" -ofn "D:/FPGAJX/ZC_EXP/Mem_IP/Mem_IP_Exp.syr" 
+xst -intstyle ise -ifn "D:/FPGAJX/ZC_EXP/Mem_IP/Mem_IP_Exp.xst" -ofn "D:/FPGAJX/ZC_EXP/Mem_IP/Mem_IP_Exp.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Mem_IP.ucf -p xc6slx16-csg324-3 Mem_IP_Exp.ngc Mem_IP_Exp.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Mem_IP_Exp_map.ncd Mem_IP_Exp.ngd Mem_IP_Exp.pcf 
+par -w -intstyle ise -ol high -mt off Mem_IP_Exp_map.ncd Mem_IP_Exp.ncd Mem_IP_Exp.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Mem_IP_Exp.twx Mem_IP_Exp.ncd -o Mem_IP_Exp.twr Mem_IP_Exp.pcf -ucf Mem_IP.ucf 
+bitgen -intstyle ise -f Mem_IP_Exp.ut Mem_IP_Exp.ncd 
+xst -intstyle ise -ifn "D:/FPGAJX/ZC_EXP/Mem_IP/Mem_IP_Exp.xst" -ofn "D:/FPGAJX/ZC_EXP/Mem_IP/Mem_IP_Exp.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Mem_IP.ucf -p xc6slx16-csg324-3 Mem_IP_Exp.ngc Mem_IP_Exp.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Mem_IP_Exp_map.ncd Mem_IP_Exp.ngd Mem_IP_Exp.pcf 
+par -w -intstyle ise -ol high -mt off Mem_IP_Exp_map.ncd Mem_IP_Exp.ncd Mem_IP_Exp.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Mem_IP_Exp.twx Mem_IP_Exp.ncd -o Mem_IP_Exp.twr Mem_IP_Exp.pcf -ucf Mem_IP.ucf 
+bitgen -intstyle ise -f Mem_IP_Exp.ut Mem_IP_Exp.ncd 
+bitgen -intstyle ise -f Mem_IP_Exp.ut Mem_IP_Exp.ncd 
+xst -intstyle ise -ifn "D:/FPGAJX/ZC_EXP/EXP5_MemIP/Mem_IP_Exp.xst" -ofn "D:/FPGAJX/ZC_EXP/EXP5_MemIP/Mem_IP_Exp.syr" 
+xst -intstyle ise -ifn "D:/FPGAJX/ZC_EXP/EXP5_MemIP/Mem_IP_Exp.xst" -ofn "D:/FPGAJX/ZC_EXP/EXP5_MemIP/Mem_IP_Exp.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Mem_IP.ucf -p xc6slx16-csg324-3 Mem_IP_Exp.ngc Mem_IP_Exp.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Mem_IP_Exp_map.ncd Mem_IP_Exp.ngd Mem_IP_Exp.pcf 
+par -w -intstyle ise -ol high -mt off Mem_IP_Exp_map.ncd Mem_IP_Exp.ncd Mem_IP_Exp.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Mem_IP_Exp.twx Mem_IP_Exp.ncd -o Mem_IP_Exp.twr Mem_IP_Exp.pcf -ucf Mem_IP.ucf 
+bitgen -intstyle ise -f Mem_IP_Exp.ut Mem_IP_Exp.ncd 
+bitgen -intstyle ise -f Mem_IP_Exp.ut Mem_IP_Exp.ncd 

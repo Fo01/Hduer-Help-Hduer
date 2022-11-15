@@ -1,0 +1,36 @@
+Running: D:\Xilinx\13.4\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o D:/FPGAJX/ZC_EXP/EXP9_RI_CPU/RI_CPU_isim_beh.exe -prj D:/FPGAJX/ZC_EXP/EXP9_RI_CPU/RI_CPU_beh.prj work.RI_CPU work.glbl 
+ISim O.87xd (signature 0x2f00eba5)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/FPGAJX/ZC_EXP/EXP9_RI_CPU/ipcore_dir/ROM_B.v" into library work
+Analyzing Verilog file "D:/FPGAJX/ZC_EXP/EXP9_RI_CPU/REGS.v" into library work
+Analyzing Verilog file "D:/FPGAJX/ZC_EXP/EXP9_RI_CPU/ipcore_dir/RAM_B.v" into library work
+Analyzing Verilog file "D:/FPGAJX/ZC_EXP/EXP9_RI_CPU/IF.v" into library work
+Analyzing Verilog file "D:/FPGAJX/ZC_EXP/EXP9_RI_CPU/ALU.v" into library work
+Analyzing Verilog file "D:/FPGAJX/ZC_EXP/EXP9_RI_CPU/RI_CPU.v" into library work
+Analyzing Verilog file "D:/Xilinx/13.4/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:189 - "D:/FPGAJX/ZC_EXP/EXP9_RI_CPU/RI_CPU.v" Line 90: Size mismatch in connection of port <addra>. Formal port size is 6-bit while actual signal size is 32-bit.
+Completed static elaboration
+Fuse Memory Usage: 66304 KB
+Fuse CPU Usage: 436 ms
+Compiling module BLK_MEM_GEN_V6_3_output_stage(C_...
+Compiling module BLK_MEM_GEN_V6_3_softecc_output_...
+Compiling module BLK_MEM_GEN_V6_3_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V6_3(C_FAMILY="spart...
+Compiling module ROM_B
+Compiling module IF_M
+Compiling module REGS
+Compiling module ALU
+Compiling module BLK_MEM_GEN_V6_3_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V6_3(C_FAMILY="spart...
+Compiling module RAM_B
+Compiling module RI_CPU
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 10 sub-compilation(s) to finish...
+Compiled 13 Verilog Units
+Built simulation executable D:/FPGAJX/ZC_EXP/EXP9_RI_CPU/RI_CPU_isim_beh.exe
+Fuse Memory Usage: 72460 KB
+Fuse CPU Usage: 906 ms
