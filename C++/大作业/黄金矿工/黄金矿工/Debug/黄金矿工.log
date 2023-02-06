@@ -1,0 +1,26 @@
+﻿  黄金矿工.cpp
+E:\大学\学校相关\大二上\C++\大作业\黄金矿工\黄金矿工\黄金矿工.cpp(80,35): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+E:\大学\VS\VS IDE\VC\Auxiliary\VS\include\easyx.h(264,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,LPCTSTR,int,int,bool)”
+E:\大学\VS\VS IDE\VC\Auxiliary\VS\include\easyx.h(263,6): message : 或    “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+E:\大学\学校相关\大二上\C++\大作业\黄金矿工\黄金矿工\黄金矿工.cpp(80,35): message : 尝试匹配参数列表“(IMAGE *, char [25], int, int)”时
+E:\大学\学校相关\大二上\C++\大作业\黄金矿工\黄金矿工\黄金矿工.cpp(84,27): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+E:\大学\VS\VS IDE\VC\Auxiliary\VS\include\easyx.h(263,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+E:\大学\学校相关\大二上\C++\大作业\黄金矿工\黄金矿工\黄金矿工.cpp(84,27): message : 尝试匹配参数列表“(IMAGE *, char [25])”时
+E:\大学\学校相关\大二上\C++\大作业\黄金矿工\黄金矿工\黄金矿工.cpp(88,70): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+E:\大学\VS\VS IDE\VC\Auxiliary\VS\include\easyx.h(264,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,LPCTSTR,int,int,bool)”
+E:\大学\VS\VS IDE\VC\Auxiliary\VS\include\easyx.h(263,6): message : 或    “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+E:\大学\学校相关\大二上\C++\大作业\黄金矿工\黄金矿工\黄金矿工.cpp(88,70): message : 尝试匹配参数列表“(IMAGE *, const char [16], int, int)”时
+E:\大学\学校相关\大二上\C++\大作业\黄金矿工\黄金矿工\黄金矿工.cpp(77,3): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\大学\学校相关\大二上\C++\大作业\黄金矿工\黄金矿工\黄金矿工.cpp(162,30): error C2665: “settextstyle”: 4 个重载中没有一个可以转换所有参数类型
+E:\大学\VS\VS IDE\VC\Auxiliary\VS\include\easyx.h(254,6): message : 可能是“void settextstyle(int,int,LPCTSTR)”
+E:\大学\学校相关\大二上\C++\大作业\黄金矿工\黄金矿工\黄金矿工.cpp(162,30): message : 尝试匹配参数列表“(int, int, const char [5])”时
+E:\大学\学校相关\大二上\C++\大作业\黄金矿工\黄金矿工\黄金矿工.cpp(163,25): error C2665: “outtextxy”: 2 个重载中没有一个可以转换所有参数类型
+E:\大学\VS\VS IDE\VC\Auxiliary\VS\include\easyx.h(231,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+E:\大学\VS\VS IDE\VC\Auxiliary\VS\include\easyx.h(230,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+E:\大学\学校相关\大二上\C++\大作业\黄金矿工\黄金矿工\黄金矿工.cpp(163,25): message : 尝试匹配参数列表“(int, int, char [30])”时
+E:\大学\学校相关\大二上\C++\大作业\黄金矿工\黄金矿工\黄金矿工.cpp(159,2): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\大学\学校相关\大二上\C++\大作业\黄金矿工\黄金矿工\黄金矿工.cpp(187,22): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+E:\大学\学校相关\大二上\C++\大作业\黄金矿工\黄金矿工\黄金矿工.cpp(188,22): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+E:\大学\学校相关\大二上\C++\大作业\黄金矿工\黄金矿工\黄金矿工.cpp(199,40): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+E:\大学\学校相关\大二上\C++\大作业\黄金矿工\黄金矿工\黄金矿工.cpp(200,40): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+E:\大学\学校相关\大二上\C++\大作业\黄金矿工\黄金矿工\黄金矿工.cpp(279,10): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据

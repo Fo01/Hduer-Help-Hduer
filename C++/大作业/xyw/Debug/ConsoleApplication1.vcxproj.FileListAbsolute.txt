@@ -1,0 +1,4 @@
+E:\各种小程序\ConsoleApplication1\Debug\ConsoleApplication1.exe
+E:\各种小程序\ConsoleApplication1\Debug\ConsoleApplication1.pdb
+C:\Users\Fool\Desktop\xyw\Debug\黄金矿工.exe
+C:\Users\Fool\Desktop\xyw\Debug\黄金矿工.pdb
