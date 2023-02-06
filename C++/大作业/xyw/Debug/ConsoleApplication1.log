@@ -1,0 +1,26 @@
+﻿E:\大学\VS\VS IDE\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: 中间目录(Debug\)包含从另一个项目(ConsoleApplication1.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  UI.cpp
+C:\Users\Fool\Desktop\xyw\钩子和黄金等.h(24,26): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+C:\Users\Fool\Desktop\xyw\钩子和黄金等.h(30,28): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\Fool\Desktop\xyw\钩子和黄金等.h(30,25): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\Fool\Desktop\xyw\UI.cpp(31,10): warning C4244: “=”: 从“time_t”转换到“int”，可能丢失数据
+C:\Users\Fool\Desktop\xyw\UI.cpp(47,11): warning C4244: “=”: 从“time_t”转换到“int”，可能丢失数据
+C:\Users\Fool\Desktop\xyw\UI.cpp(65,10): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+C:\Users\Fool\Desktop\xyw\UI.cpp(66,10): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+C:\Users\Fool\Desktop\xyw\UI.cpp(74,42): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\Fool\Desktop\xyw\UI.cpp(74,25): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\Fool\Desktop\xyw\UI.cpp(80,56): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\Fool\Desktop\xyw\UI.cpp(80,34): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\Fool\Desktop\xyw\UI.cpp(104,57): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\Fool\Desktop\xyw\UI.cpp(104,35): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\Fool\Desktop\xyw\UI.cpp(105,43): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\Fool\Desktop\xyw\UI.cpp(105,26): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\Fool\Desktop\xyw\UI.cpp(128,57): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\Fool\Desktop\xyw\UI.cpp(128,35): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\Fool\Desktop\xyw\UI.cpp(130,43): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\Fool\Desktop\xyw\UI.cpp(130,26): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\Fool\Desktop\xyw\UI.cpp(289,42): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\Fool\Desktop\xyw\UI.cpp(289,25): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\Fool\Desktop\xyw\UI.cpp(290,56): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\Fool\Desktop\xyw\UI.cpp(290,34): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+  ConsoleApplication1.vcxproj -> C:\Users\Fool\Desktop\xyw\Debug\黄金矿工.exe
