@@ -1,0 +1,6 @@
+﻿  team_12.cpp
+C:\Users\Fool\Desktop\程序设计课程设计\程序设计课程设计\程序设计课程设计\team_12.cpp(22,2): warning C4091: “typedef ”: 没有声明变量时忽略“StudentInfo”的左侧
+C:\Users\Fool\Desktop\程序设计课程设计\程序设计课程设计\程序设计课程设计\team_12.cpp(28,2): warning C4091: “typedef ”: 没有声明变量时忽略“StudentScore”的左侧
+C:\Users\Fool\Desktop\程序设计课程设计\程序设计课程设计\程序设计课程设计\team_12.cpp(1394,8): warning C4101: “s1”: 未引用的局部变量
+C:\Users\Fool\Desktop\程序设计课程设计\程序设计课程设计\程序设计课程设计\team_12.cpp(1626,13): warning C4326: “main”的返回类型应为“int”而非“void”
+  程序设计课程设计.vcxproj -> C:\Users\Fool\Desktop\程序设计课程设计\程序设计课程设计\Debug\程序设计课程设计.exe
