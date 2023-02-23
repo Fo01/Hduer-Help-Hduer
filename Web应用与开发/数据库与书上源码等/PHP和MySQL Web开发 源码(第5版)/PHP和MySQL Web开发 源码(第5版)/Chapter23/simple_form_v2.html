@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Sample Form</title>
+</head>
+<body>
+   <form id="myForm">
+    <label for="first_name">First Name</label><br/>
+    <input type="text" name="name[first]" 
+           id="first_name" class="name"/><br/>
+    <label for="last_name">Last Name</label><br/>
+    <input type="text" name="name[last]" 
+           id="last_name" class="name"/><br/>
+    <button type="submit">Submit Form </button>
+    </form>
+
+   <hr/>
+
+   <div id="webConsole">
+      <h3>Web Console</h3>
+   </div>
+    
+    <script src="//code.jquery.com/jquery-2.2.3.min.js"></script>
+
+    <script>
+       var webConsole = function(msg) {
+          var console = $('#webConsole');
+          var newMessage = $('<p>').text(msg);
+          console.append(newMessage);
+       }
+
+       $(document).on('ready', function() {
+          $('#first_name').attr('placeholder', 'Johnny');
+          $('#last_name').attr('placeholder', 'Appleseed');   
+       });
+            
+       $('#myForm').on('submit', function(event) {
+          var first_name = $('#first_name').val();
+          var last_name = $('#last_name').val();
+                
+          webConsole("The form was submitted");
+          alert("Hello, " + first_name + " " + last_name + "!");
+        });
+            
+        $('.name').on('focusout', function(event) {
+          var nameField = $(event.target);
+          webConsole("Name field '" + 
+                     nameField.attr('id') + 
+                     "' was updated to '" + 
+                     nameField.val() + 
+                     "''");
+          });
+    </script>   
+     
+</body>
+</html>

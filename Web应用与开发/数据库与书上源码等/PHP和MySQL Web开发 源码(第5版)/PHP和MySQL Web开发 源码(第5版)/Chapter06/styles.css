@@ -1,0 +1,61 @@
+header, footer {
+    background-color: #000000;                                            
+    text-align: left;
+}
+
+header h1 {
+    display:inline-block;  
+    color: #ffffff;                                                            
+    font-size: 24pt;                                                         
+    text-align: left;                                                        
+    font-family: arial, sans-serif;
+    vertical-align:top;   
+}
+
+nav {
+    background-color: #000000;                                            
+    text-align: left;
+}    
+
+.menuitem {
+    display: inline-block;                                            
+    color: #ffffff;                                                     
+    font-size: 12pt;                                                  
+    text-align: center;                                               
+    font-family: arial, sans-serif;                                    
+    font-weight: bold;                                                
+    vertical-align: top;                                              
+    padding: 5px;
+    width: 150px;
+}                                                     
+.menutext {
+    vertical-align: top;
+} 
+
+section h2 {
+    color: #000000; 
+    font-size: 16pt; 
+    text-align: justify;                         
+    font-family: arial, sans-serif;
+}   
+
+section p {
+    color: #000000; 
+    font-size: 12pt; 
+    text-align: justify;                         
+    font-family: arial, sans-serif;
+}  
+
+footer p {
+    color: #ffffff; 
+    font-size: 9pt; 
+    text-align: center;                      
+    font-family: arial,sans-serif; 
+    font-weight: bold;
+    padding: 6px;
+}  
+
+a:link, a:visited, a:active {
+    color: #ffffff;                                      
+    text-decoration: none;
+}           

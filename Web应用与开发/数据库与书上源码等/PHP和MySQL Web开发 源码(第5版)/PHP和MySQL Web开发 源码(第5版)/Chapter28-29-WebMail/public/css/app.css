@@ -1,0 +1,56 @@
+a.nohover {
+	color: #374767
+}
+
+a.nohover:hover {
+	color: #374767;
+	text-decoration: none;
+}
+
+.replybox {
+	min-width: 100%
+}
+
+.messages
+{
+	list-style: none;
+}
+
+.folders
+{
+	list-style: none;
+}
+
+.from
+{
+	font-weight: bold;
+  	display: block;
+  	font-size: 14px;
+  	color: #374767;
+}
+
+.to
+{
+	font-weight: bold;
+  	display: block;
+  	font-size: 14px;
+  	color: #374767;	
+}
+
+.title
+{
+	margin-top: 30px;
+	padding-top: 10px;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.date
+{
+	display: inline-block;
+	width: 29%;
+	text-align: right;
+	float: right;
+	font-size: 12px;
+	margin-top: 18px;
+}

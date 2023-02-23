@@ -1,0 +1,17 @@
+# required empty msgid & msgstr
+msgid ""
+msgstr ""
+
+"Project-Id-Version: 0.1\n"
+"POT-Creation-Date: 2016-04-05 14:00+0500\n"
+"Last-Translator: Jane Doe <jane@doe.com>\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en_US\n"
+
+# welcome message
+msgid "WELCOME_TEXT"
+msgstr "Welcome!"
+
+# instruction to choose language
+msgid "CHOOSE_LANGUAGE"
+msgstr "Choose Language"
