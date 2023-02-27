@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Polling</title>
+</head>
+<body>
+<h1>Polling</h1>
+<p>Who will you vote for in the election?</p>
+
+<form action="show_poll.php" method="post">
+
+<p>Select a Politician:<br/>
+<input type="radio" name="vote" id="vote_john_smith" value="John Smith" />
+   <label for="vote_john_smith">John Smith</label><br/>
+<input type="radio" name="vote" id="vote_mary_jones" value="Mary Jones" />
+   <label for="vote_mary_jones">Mary Jones</label><br/>
+<input type="radio" name="vote" id="vote_fred_bloggs" value="Fred Bloggs" />
+   <label for="vote_fred_bloggs">Fred Bloggs</label><br/>
+</p>
+
+<button type="submit" name="show_results">Show Results</button>
+</form>
+
+</body>
+</html>

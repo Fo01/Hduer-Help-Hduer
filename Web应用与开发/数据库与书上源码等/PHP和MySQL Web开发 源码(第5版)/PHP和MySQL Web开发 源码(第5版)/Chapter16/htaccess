@@ -1,0 +1,6 @@
+AuthUserFile /var/www/.htpass
+AuthType Basic
+AuthName "Authorization Needed"
+AuthBasicProvider file
+Require valid-user
+ErrorDocument 401 /var/www/pmwd53/chapter16/rejection.html

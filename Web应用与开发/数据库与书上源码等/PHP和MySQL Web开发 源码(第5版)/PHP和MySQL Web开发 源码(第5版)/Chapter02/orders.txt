@@ -1,0 +1,4 @@
+18:55, 16th April 2013  4 tires  1 oil  6 spark plugs  $477.4 22 Short St, Smalltown
+18:56, 16th April 2013  1 tires  0 oil  0 spark plugs  $110   33 Main Rd, Oldtown
+18:57, 16th April 2013  0 tires  1 oil  4 spark plugs  $28.6  127 Acacia St,
+Springfield

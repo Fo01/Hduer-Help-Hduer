@@ -1,0 +1,24 @@
+phpStudy v8（Windows 64位）
+
+一. 安装说明（特别注意）
+
+1. 安装路径不能包含“中文”或者“空格”，否则会报错（例如错误提示：Can't change dir to 'G:\\x65b0\x5efa\x6587\）
+
+2. 保证安装路径是纯净的，安装路径下不能有已安装的V8版本，若重新安装，请选择其它路径
+
+
+二. 使用手册
+
+https://www.xp.cn/phpstudy-v8/
+
+
+三. 使用教程
+
+1. 版本下载及更新日志：https://www.xp.cn/wenda/401.html
+
+2. 常见问题：https://www.xp.cn/wenda/392.html
+
+3. 视频教程：https://www.php.cn/course/1066.html
+
+3. 讨论区：https://www.xp.cn/using.html
+
